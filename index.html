@@ -347,23 +347,11 @@ h2{font-family:'Lora',serif;font-size:clamp(1.9rem,3.5vw,2.8rem);font-weight:600
 @media(max-width:600px){.form-row{grid-template-columns:1fr}}
 
 /* ─── FOOTER ─── */
-footer{background:var(--darker);padding:60px 24px 24px;color:rgba(255,255,255,.6)}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;max-width:1100px;margin:0 auto 40px}
-.footer-brand-logo{height:50px;width:auto;max-width:220px;object-fit:contain;object-position:left center;display:block;margin-bottom:16px;filter:brightness(0) invert(1)}
-.footer-brand p{font-size:.87rem;line-height:1.7;color:rgba(255,255,255,.45);margin-bottom:14px}
-.footer-brand a{color:var(--teal-bright);font-size:13px;font-weight:600;text-decoration:none}
-.footer-col h5{color:#fff;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:16px;font-family:'Syne',sans-serif}
-.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:9px}
-.footer-col ul li a{color:rgba(255,255,255,.5);text-decoration:none;font-size:13px;transition:color .2s}
-.footer-col ul li a:hover{color:var(--teal-bright)}
-.footer-bottom{border-top:1px solid rgba(255,255,255,.07);padding-top:24px;text-align:center;font-size:12px;max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
-.footer-bottom a{color:var(--teal-bright);text-decoration:none}
-.powered-by{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:rgba(255,255,255,.3);justify-content:center}
-.powered-by a{color:rgba(212,168,80,.7);font-weight:600;text-decoration:none}
-.powered-by a:hover{color:var(--mango)}
-.footer-sitemap-links{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;font-size:12px;margin-top:8px}
-.footer-sitemap-links a{color:rgba(255,255,255,.35);text-decoration:none;transition:color .2s}
-.footer-sitemap-links a:hover{color:var(--teal-bright)}
+footer{background:var(--darker);color:rgba(255,255,255,.6)}
+footer a{transition:color .2s}
+@media(max-width:768px){
+  footer > div > div:first-child{grid-template-columns:1fr!important;gap:28px!important}
+}
 @media(max-width:768px){.footer-grid{grid-template-columns:1fr;gap:28px}}
 
 /* ─── ANIMATIONS ─── */
@@ -390,13 +378,12 @@ html,body{max-width:100%;overflow-x:hidden}
   .gorditos-wrap,.linda-wrap{padding:0 16px}
   .angled-break,.angled-break-bottom{clip-path:none;padding:60px 16px}
   .rest-grid{grid-template-columns:1fr}
-  .footer-grid{grid-template-columns:1fr;gap:20px}
   .eyetoad-ad-inner{padding:24px 20px}
 }
 
 /* ─── PRINT ─── */
 @media print{
-  header,.lang-bar,.hero,.gorditos-ad,.linda-ad,.eyetoad-ad,.form-section,.bucket-section,.advertise-section,footer,.wave{display:none}
+  header,.lang-bar,.hero,.gorditos-ad,.linda-ad,footer,.wave{display:none}
   body{font-size:12px;color:#000}
   h2,h3,h4{color:#000}
   .bucket-list-entry{border:1px solid #ccc;margin-bottom:6px;padding:8px}
@@ -405,6 +392,10 @@ html,body{max-width:100%;overflow-x:hidden}
   .print-only{display:block!important}
 }
 .print-only{display:none}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(1.3)}}
+@media(max-width:768px){
+  footer > div > div:first-child{grid-template-columns:1fr!important;gap:24px}
+}
 </style>
 </head>
 <body>
@@ -537,7 +528,7 @@ html,body{max-width:100%;overflow-x:hidden}
 
       <!-- La Casita de Papi -->
       <div class="rest-card fade-up">
-        <div class="rest-card-img" style="background-image:url('images/restaurant-cabarete-dominican-republic.jpg')">
+        <div class="rest-card-img" style="background-image:url('images/restaurant-cabarete-dominican-republic.jpg');background-color:#004e64">
           <div class="rest-card-img-overlay"></div>
           <div class="rest-card-cat">🦞 Seafood</div>
           <div class="rest-card-rating">⭐ 4.3 · 1,068</div>
@@ -558,7 +549,7 @@ html,body{max-width:100%;overflow-x:hidden}
 
       <!-- Bliss Restaurant -->
       <div class="rest-card fade-up">
-        <div class="rest-card-img" style="background-image:url('images/best-cabarete-restaurants.jpg')">
+        <div class="rest-card-img" style="background-image:url('images/places-to-eat-cabarete.jpg')">
           <div class="rest-card-img-overlay"></div>
           <div class="rest-card-cat">🌟 Fine Dining</div>
           <div class="rest-card-rating">⭐ 4.8 · 600+</div>
@@ -579,7 +570,7 @@ html,body{max-width:100%;overflow-x:hidden}
 
       <!-- Cabarete Coffee Company -->
       <div class="rest-card fade-up">
-        <div class="rest-card-img" style="background-image:url('images/places-to-eat-cabarete.jpg')">
+        <div class="rest-card-img" style="background-image:url('images/best-food-cabarete.jpg')">
           <div class="rest-card-img-overlay"></div>
           <div class="rest-card-cat">☕ Breakfast</div>
           <div class="rest-card-rating">⭐ 4.8 · 426</div>
@@ -600,7 +591,7 @@ html,body{max-width:100%;overflow-x:hidden}
 
       <!-- Vagamundo -->
       <div class="rest-card fade-up">
-        <div class="rest-card-img" style="background-image:url('images/cabarete-restaurants.jpg')">
+        <div class="rest-card-img" style="background-image:url('images/best-cabarete-restaurants.jpg')">
           <div class="rest-card-img-overlay"></div>
           <div class="rest-card-cat">🧇 Cafe</div>
           <div class="rest-card-rating">⭐ 4.7 · 500+</div>
@@ -621,8 +612,10 @@ html,body{max-width:100%;overflow-x:hidden}
 
       <!-- Le Bistro -->
       <div class="rest-card fade-up">
-        <div class="rest-card-img" style="background-image:url('images/best-food-cabarete.jpg')">
-          <div class="rest-card-img-overlay"></div>
+        <div class="rest-card-img" style="background:linear-gradient(135deg,#1a0a2e 0%,#2d1b4e 50%,#1a0a2e 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px">
+          <span style="font-size:52px;filter:drop-shadow(0 0 12px rgba(255,255,255,0.3))">🥂</span>
+          <span style="font-family:'Lora',serif;font-size:1.1rem;color:rgba(255,255,255,0.85);font-style:italic;letter-spacing:.05em">French Cuisine</span>
+          <div class="rest-card-img-overlay" style="background:linear-gradient(to top,rgba(45,27,78,0.6),transparent 40%)"></div>
           <div class="rest-card-cat">🥂 French</div>
           <div class="rest-card-rating">⭐ 4.7 · 241</div>
         </div>
@@ -642,8 +635,10 @@ html,body{max-width:100%;overflow-x:hidden}
 
       <!-- Pomodoro -->
       <div class="rest-card fade-up">
-        <div class="rest-card-img" style="background-image:url('images/restaurant-cabarete.jpg')">
-          <div class="rest-card-img-overlay"></div>
+        <div class="rest-card-img" style="background:linear-gradient(135deg,#1a0505 0%,#2e1010 40%,#1a0a00 100%);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px">
+          <span style="font-size:52px;filter:drop-shadow(0 0 12px rgba(255,100,50,0.4))">🍕</span>
+          <span style="font-family:'Lora',serif;font-size:1.1rem;color:rgba(255,255,255,0.85);font-style:italic;letter-spacing:.05em">Beachfront Italian</span>
+          <div class="rest-card-img-overlay" style="background:linear-gradient(to top,rgba(46,16,16,0.6),transparent 40%)"></div>
           <div class="rest-card-cat">🍕 Italian</div>
           <div class="rest-card-rating">⭐ 4.5 · 800+</div>
         </div>
@@ -663,7 +658,7 @@ html,body{max-width:100%;overflow-x:hidden}
 
       <!-- Mojito Bar -->
       <div class="rest-card fade-up">
-        <div class="rest-card-img" style="background-image:url('images/best-food-cabarete.jpg');background-position:bottom">
+        <div class="rest-card-img" style="background-image:url('images/restaurant-cabarete.jpg')">
           <div class="rest-card-img-overlay"></div>
           <div class="rest-card-cat">🍹 Bar &amp; Grill</div>
           <div class="rest-card-rating">⭐ 4.4 · 806</div>
@@ -793,7 +788,7 @@ html,body{max-width:100%;overflow-x:hidden}
         <p>What are you hungry for?</p>
       </div>
       <div class="menu-img-wrap">
-        <img src="images/cabarete-restaurants.jpg" alt="Gordito's Fresh Mex Menu — Cabarete Dominican Republic" loading="lazy"/>
+        <img src="images/best-food-cabarete.jpg" alt="Gordito's Fresh Mex Menu — Cabarete Dominican Republic" loading="lazy"/>
       </div>
       <!-- Text version of menu for SEO and accessibility -->
       <div style="padding:0 32px 32px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px">
@@ -823,16 +818,23 @@ html,body{max-width:100%;overflow-x:hidden}
   </div>
 </section>
 
-<!-- ZACH'S REVIEW -->
+<!-- ZACH'S REVIEW — GORDITO'S FRESH MEX -->
 <div class="zach-review-section fade-up">
   <div class="zach-review-inner">
+    <div style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);padding:6px 18px;border-radius:20px;margin-bottom:16px">
+      <span style="font-size:16px">🌮</span>
+      <span style="font-family:'Syne',sans-serif;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,0.9)" data-en="Verified Guest Review — Gordito's Fresh Mex, Cabarete" data-es="Reseña Verificada de Cliente — Gordito's Fresh Mex, Cabarete">Verified Guest Review — Gordito's Fresh Mex, Cabarete</span>
+    </div>
     <div class="zach-stars">★★★★★</div>
     <div class="zach-quote-mark">"</div>
     <p class="zach-review-text" data-en="Hands down some of the best food I've ever eaten! Undoubtedly one of the best restaurants in Dominican Republic! Truly delicious!! You've got to try!" data-es="Sin duda alguna, una de las mejores comidas que he probado en mi vida. Indiscutiblemente uno de los mejores restaurantes de la República Dominicana. ¡Verdaderamente delicioso! ¡Tienes que probarlo!">
       Hands down some of the best food I've ever eaten! Undoubtedly one of the best restaurants in Dominican Republic! Truly delicious!! You've got to try!
     </p>
     <div class="zach-review-byline">
-      — Zach <span data-en="· Verified Cabarete Food Explorer · Gordito's Fresh Mex" data-es="· Explorador Gastronómico Verificado de Cabarete · Gordito's Fresh Mex">· Verified Cabarete Food Explorer · Gordito's Fresh Mex</span>
+      — Zach <span data-en="· Cabarete Food Explorer · Reviewed: Gordito's Fresh Mex" data-es="· Explorador Gastronómico en Cabarete · Reseña: Gordito's Fresh Mex">· Cabarete Food Explorer · Reviewed: Gordito's Fresh Mex</span>
+    </div>
+    <div style="margin-top:20px">
+      <a href="https://gorditosfreshmex.com" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.15);border:2px solid rgba(255,255,255,0.5);color:#fff;padding:10px 22px;border-radius:8px;text-decoration:none;font-weight:700;font-size:13px;font-family:'Syne',sans-serif;letter-spacing:.04em;transition:all .2s" data-en="🌐 Visit gorditosfreshmex.com" data-es="🌐 Visita gorditosfreshmex.com" onmouseover="this.style.background='rgba(255,255,255,0.25)'" onmouseout="this.style.background='rgba(255,255,255,0.15)'">🌐 Visit gorditosfreshmex.com</a>
     </div>
   </div>
 </div>
@@ -858,10 +860,10 @@ html,body{max-width:100%;overflow-x:hidden}
             Thinking about investing in paradise? Linda Bahar has helped hundreds of buyers and investors find their perfect piece of the Dominican Republic's stunning North Coast. Based at Plaza Ocean Dream in Cabarete, Linda and her team know every neighborhood, every building, and every deal worth making.
           </p>
           <div class="linda-contact-row">
+            <a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener" style="font-size:15px;font-weight:800;color:var(--mango)">🌐 cabaretecondosforsale.com</a>
             <a href="tel:+18294701555">📞 +1-829-470-1555</a>
             <a href="tel:+18296385274">📞 +1-829-638-5274 (Office)</a>
             <a href="mailto:linda@lindabahar.com">✉ linda@lindabahar.com</a>
-            <a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener">🌐 cabaretecondosforsale.com</a>
           </div>
         </div>
         <a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener" class="linda-cta" data-en="View Properties →" data-es="Ver Propiedades →">View Properties →</a>
@@ -870,6 +872,14 @@ html,body{max-width:100%;overflow-x:hidden}
     </div>
   </div>
 </section>
+
+<!-- MINI SEO CALLOUT — inline, subtle, different style from main ads -->
+<div style="background:linear-gradient(90deg,#005f73 0%,#0a8a9f 50%,#005f73 100%);padding:20px 24px;text-align:center">
+  <p style="color:rgba(255,255,255,.9);font-size:14px;line-height:1.6">
+    <strong style="color:var(--mango);font-family:'Syne',sans-serif">📈 Is your restaurant invisible online?</strong>
+    &nbsp;&nbsp;<a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" style="color:#fff;font-weight:700;border-bottom:1px solid rgba(255,255,255,.5);text-decoration:none;padding-bottom:1px" data-en="Our Dominican Republic advertising agency gets you found on Google and AI search →" data-es="Nuestra agencia de publicidad en República Dominicana te posiciona en Google y búsqueda con IA →">Our Dominican Republic advertising agency gets you found on Google and AI search →</a>
+  </p>
+</div>
 
 <!-- ANGLED BREAK -->
 <div style="background:var(--sand);position:relative;height:70px;overflow:hidden"><svg viewBox="0 0 1440 70" xmlns="http://www.w3.org/2000/svg" style="position:absolute;bottom:0;width:100%"><path d="M0,70 L720,0 L1440,70 Z" fill="#ffffff"/></svg></div>
@@ -950,32 +960,75 @@ html,body{max-width:100%;overflow-x:hidden}
   </div>
 </section>
 
-<!-- EYE TO AD MEDIA AD -->
-<div class="eyetoad-ad fade-up">
-  <div class="eyetoad-ad-inner">
-    <div class="eyetoad-ad-left">
-      <h3 data-en="Want Your Business Found on &lt;em&gt;Google &amp; AI Search&lt;/em&gt; — Anywhere in the World?" data-es="¿Quieres que Tu Negocio Aparezca en &lt;em&gt;Google y Búsqueda con IA&lt;/em&gt; — En Cualquier Parte del Mundo?">Want Your Business Found on <em>Google &amp; AI Search</em> — Anywhere in the World?</h3>
-      <p data-en="Eye To Ad Media specializes in getting businesses in front of the exact customers who are already searching for what you offer — on Google, AI platforms, and agentic search. Whether you're a restaurant, a resort, a tour operator, or a local service in the Dominican Republic, we can make it happen." data-es="Eye To Ad Media se especializa en posicionar negocios frente a los clientes exactos que ya buscan lo que ofreces — en Google, plataformas de IA y búsqueda agéntica. Ya seas un restaurante, un resort, un operador turístico o un servicio local en la República Dominicana, podemos lograrlo.">Eye To Ad Media specializes in getting businesses in front of the exact customers who are already searching for what you offer — on Google, AI platforms, and agentic search. Whether you're a restaurant, a resort, a tour operator, or a local service in the Dominican Republic, we can make it happen.</p>
-      <a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" class="dr-seo-link" data-en="→ Visit Our Dominican Republic Advertising Agency" data-es="→ Visita Nuestra Agencia de Publicidad en República Dominicana">→ Visit Our Dominican Republic Advertising Agency</a>
+<!-- EYE TO AD MEDIA — SEO / AI SEARCH AD (distinct dark-tech style) -->
+<div style="background:linear-gradient(160deg,#060d18 0%,#0a1f2e 50%,#060d18 100%);padding:56px 24px;position:relative;overflow:hidden">
+  <!-- animated grid background -->
+  <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(0,180,216,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,180,216,0.04) 1px,transparent 1px);background-size:40px 40px;pointer-events:none"></div>
+  <!-- corner glow -->
+  <div style="position:absolute;top:-80px;right:-80px;width:320px;height:320px;background:radial-gradient(circle,rgba(0,180,216,0.1) 0%,transparent 70%);border-radius:50%;pointer-events:none"></div>
+  <div style="position:absolute;bottom:-60px;left:-60px;width:240px;height:240px;background:radial-gradient(circle,rgba(249,199,79,0.07) 0%,transparent 70%);border-radius:50%;pointer-events:none"></div>
+
+  <div style="max-width:1000px;margin:0 auto;position:relative;z-index:1">
+    <!-- top label bar -->
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;flex-wrap:wrap">
+      <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(0,180,216,0.12);border:1px solid rgba(0,180,216,0.3);padding:5px 14px;border-radius:20px">
+        <span style="width:7px;height:7px;background:#00b4d8;border-radius:50%;display:inline-block;animation:pulse 1.5s ease-in-out infinite"></span>
+        <span style="font-family:'Syne',sans-serif;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:#00b4d8">AI Search Optimization</span>
+      </div>
+      <div style="display:inline-flex;align-items:center;gap:6px;background:rgba(249,199,79,0.1);border:1px solid rgba(249,199,79,0.25);padding:5px 14px;border-radius:20px">
+        <span style="font-family:'Syne',sans-serif;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--mango)">Dominican Republic</span>
+      </div>
     </div>
-    <a href="mailto:sales@eyetoad.com?subject=SEO%20Inquiry" class="eyetoad-cta" data-en="📧 Get a Free Consultation" data-es="📧 Consulta Gratuita">📧 Get a Free Consultation</a>
+
+    <div style="display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center">
+      <div>
+        <h3 style="font-family:'Lora',serif;font-size:clamp(1.3rem,2.8vw,2rem);color:#fff;line-height:1.2;margin-bottom:12px">
+          <span data-en="Want Customers to Find &lt;em style='font-style:italic;color:#00b4d8'&gt;Your Business&lt;/em&gt; on Google &amp; AI Search?" data-es="¿Quieres que los Clientes Encuentren &lt;em style='font-style:italic;color:#00b4d8'&gt;Tu Negocio&lt;/em&gt; en Google y Búsqueda con IA?">Want Customers to Find <em style="font-style:italic;color:#00b4d8">Your Business</em> on Google &amp; AI Search?</span>
+        </h3>
+        <p style="font-size:.92rem;color:rgba(255,255,255,0.6);line-height:1.7;margin-bottom:18px;max-width:580px" data-en="Eye To Ad Media gets businesses found by the exact customers already searching for what you offer — on Google, ChatGPT, Perplexity, and every AI platform shaping how people discover businesses today. We operate anywhere in the world." data-es="Eye To Ad Media posiciona negocios frente a los clientes exactos que ya buscan lo que ofreces — en Google, ChatGPT, Perplexity y cada plataforma de IA que define cómo las personas descubren negocios hoy. Operamos en cualquier parte del mundo.">Eye To Ad Media gets businesses found by the exact customers already searching for what you offer — on Google, ChatGPT, Perplexity, and every AI platform shaping how people discover businesses today. We operate anywhere in the world.</p>
+        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+          <span style="font-size:12px;color:rgba(255,255,255,0.4)" data-en="Specializing in:" data-es="Especializados en:">Specializing in:</span>
+          <span style="background:rgba(0,180,216,0.1);border:1px solid rgba(0,180,216,0.25);color:#90e0ef;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;font-family:'Syne',sans-serif">SEO</span>
+          <span style="background:rgba(0,180,216,0.1);border:1px solid rgba(0,180,216,0.25);color:#90e0ef;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;font-family:'Syne',sans-serif">AIO</span>
+          <span style="background:rgba(0,180,216,0.1);border:1px solid rgba(0,180,216,0.25);color:#90e0ef;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;font-family:'Syne',sans-serif">AI Search</span>
+          <span style="background:rgba(0,180,216,0.1);border:1px solid rgba(0,180,216,0.25);color:#90e0ef;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;font-family:'Syne',sans-serif">Web Design</span>
+          <span style="background:rgba(249,199,79,0.1);border:1px solid rgba(249,199,79,0.25);color:var(--mango);font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;font-family:'Syne',sans-serif">Dominican Republic</span>
+        </div>
+        <div style="margin-top:16px;padding:12px 16px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;display:inline-flex;align-items:center;gap:8px">
+          <span style="font-size:12px;color:rgba(255,255,255,0.45)" data-en="Visit:" data-es="Visita:">Visit:</span>
+          <a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" style="color:#00b4d8;font-weight:700;text-decoration:none;font-size:13px;font-family:'Syne',sans-serif" data-en="Dominican Republic Advertising Agency →" data-es="Agencia de Publicidad República Dominicana →">Dominican Republic Advertising Agency →</a>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;flex-shrink:0;align-self:center">
+        <a href="mailto:sales@eyetoad.com?subject=SEO%20AI%20Inquiry%20from%20CabareteRestaurants" style="display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,#00b4d8,#007ea7);color:#fff;font-family:'Syne',sans-serif;font-weight:800;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:14px 22px;border-radius:50px;text-decoration:none;white-space:nowrap;box-shadow:0 4px 18px rgba(0,180,216,.3);transition:all .2s" data-en="📧 Get a Free Consult" data-es="📧 Consulta Gratis" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 28px rgba(0,180,216,.5)'" onmouseout="this.style.transform='translateY(0)';this.style.boxShadow='0 4px 18px rgba(0,180,216,.3)'">📧 Get a Free Consult</a>
+        <a href="https://www.eyetoad.com" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;gap:6px;background:transparent;border:1px solid rgba(255,255,255,0.2);color:rgba(255,255,255,0.55);font-family:'Syne',sans-serif;font-weight:700;font-size:12px;letter-spacing:.03em;text-transform:uppercase;padding:10px 18px;border-radius:50px;text-decoration:none;white-space:nowrap;transition:all .2s" data-en="eyetoad.com" data-es="eyetoad.com" onmouseover="this.style.borderColor='rgba(255,255,255,0.4)';this.style.color='rgba(255,255,255,0.85)'" onmouseout="this.style.borderColor='rgba(255,255,255,0.2)';this.style.color='rgba(255,255,255,0.55)'">🌐 eyetoad.com</a>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- NETWORK LINKS -->
+
+
+<!-- NETWORK LINKS — SEO keyword anchor text -->
 <section class="network-section">
   <div class="container" style="text-align:center">
-    <div class="section-tag" data-en="Explore More Dominican Republic" data-es="Explora Más República Dominicana">Explore More Dominican Republic</div>
-    <h2 style="font-size:clamp(1.4rem,2.5vw,2rem)" data-en="Our Partner Network" data-es="Nuestra Red de Socios">Our Partner Network</h2>
+    <div class="section-tag" data-en="Explore More of the Dominican Republic" data-es="Explora Más de la República Dominicana">Explore More of the Dominican Republic</div>
+    <h2 style="font-size:clamp(1.4rem,2.5vw,2rem)" data-en="Our Partner Sites" data-es="Nuestros Sitios Hermanos">Our Partner Sites</h2>
+    <p style="color:var(--text-soft);font-size:.95rem;max-width:620px;margin:0 auto 28px;line-height:1.7" data-en="Planning more than just dinner? Our network of DR travel sites covers beaches, activities, real estate, and the best of the North Coast — all with the same dedication to authentic, no-fluff information." data-es="¿Planificando más que solo cenar? Nuestra red de sitios de viaje en RD cubre playas, actividades, bienes raíces y lo mejor de la Costa Norte.">Planning more than just dinner? Our network of DR travel sites covers beaches, activities, real estate, and the best of the North Coast — all with the same dedication to authentic, no-fluff information.</p>
     <div class="network-grid">
-      <a href="https://cabaretebeachdominicanrepublic.com" target="_blank" rel="noopener" class="network-link">🌊 Cabarete Beach Guide</a>
-      <a href="https://cabaretebeachdominicanrepublic.com/things-to-do-cabarete/" target="_blank" rel="noopener" class="network-link">🪁 Things To Do in Cabarete</a>
-      <a href="https://puertoplatarestaurants.com" target="_blank" rel="noopener" class="network-link">🍽️ Puerto Plata Restaurants</a>
-      <a href="https://dominicanrepublicvacationspots.com" target="_blank" rel="noopener" class="network-link">🏖️ DR Vacation Spots</a>
-      <a href="https://dominicanrepublicplacestovisit.com" target="_blank" rel="noopener" class="network-link">📍 DR Places to Visit</a>
-      <a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener" class="network-link">🏡 Cabarete Condos For Sale</a>
-      <a href="https://thingstodoinpuertoplata.com" target="_blank" rel="noopener" class="network-link">🎯 Things To Do Puerto Plata</a>
-      <a href="https://dominicanrealestatetour.com" target="_blank" rel="noopener" class="network-link">🏘️ Dominican Real Estate Tour</a>
+      <a href="https://cabaretebeachdominicanrepublic.com" target="_blank" rel="noopener" class="network-link">Cabarete Beach Dominican Republic Guide</a>
+      <a href="https://cabaretebeachdominicanrepublic.com/things-to-do-cabarete/" target="_blank" rel="noopener" class="network-link">Things To Do in Cabarete</a>
+      <a href="https://puertoplatarestaurants.com" target="_blank" rel="noopener" class="network-link">Puerto Plata Restaurants</a>
+      <a href="https://dominicanrepublicvacationspots.com" target="_blank" rel="noopener" class="network-link">Dominican Republic Vacation Spots</a>
+      <a href="https://dominicanrepublicplacestovisit.com" target="_blank" rel="noopener" class="network-link">Dominican Republic Places to Visit</a>
+      <a href="https://thingstodoinpuertoplata.com" target="_blank" rel="noopener" class="network-link">Things To Do in Puerto Plata</a>
+      <a href="https://dominicanrealestatetour.com" target="_blank" rel="noopener" class="network-link">Dominican Republic Real Estate Tour</a>
+      <a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" class="network-link">Dominican Republic Advertising Agency</a>
+    </div>
+    <!-- Cabaretecondosforsale placed here separately from Linda's ad -->
+    <div style="margin-top:16px;padding:16px 24px;background:#fff;border-radius:12px;display:inline-flex;align-items:center;gap:16px;box-shadow:var(--shadow);flex-wrap:wrap;justify-content:center">
+      <span style="font-size:13px;color:var(--text-soft)" data-en="Looking to buy property in Cabarete?" data-es="¿Buscas comprar propiedad en Cabarete?">Looking to buy property in Cabarete?</span>
+      <a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener" style="color:var(--teal);font-weight:800;text-decoration:none;font-size:14px;font-family:'Syne',sans-serif;border-bottom:2px solid var(--teal-bright)">Cabarete Condos For Sale →</a>
     </div>
   </div>
 </section>
@@ -1095,56 +1148,82 @@ html,body{max-width:100%;overflow-x:hidden}
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-grid container">
-    <div class="footer-brand">
-      <img class="footer-brand-logo" src="images/cabarete-restaurants-logo.png" alt="Cabarete Restaurants" width="220" height="50"/>
-      <p data-en="The definitive guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list. Authentic food, honest reviews, and real local knowledge from the North Coast." data-es="La guía definitiva de los mejores restaurantes en Cabarete, República Dominicana. Solo los mejores están en esta lista. Comida auténtica, reseñas honestas y conocimiento local real de la Costa Norte.">The definitive guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list. Authentic food, honest reviews, and real local knowledge from the North Coast.</p>
-      <a href="mailto:sales@eyetoad.com">📧 sales@eyetoad.com</a>
+  <div style="max-width:1100px;margin:0 auto;padding:56px 24px 0">
+
+    <!-- Top footer row: brand + nav columns -->
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px;width:100%">
+
+      <!-- Brand -->
+      <div>
+        <img src="images/cabarete-restaurants-logo.png" alt="Cabarete Restaurants — Best Places to Eat in Cabarete Dominican Republic" width="220" height="50" style="height:52px;width:auto;max-width:220px;object-fit:contain;object-position:left center;display:block;margin-bottom:18px;filter:brightness(0) invert(1)"/>
+        <p style="font-size:.87rem;line-height:1.75;color:rgba(255,255,255,.45);margin-bottom:16px" data-en="The definitive curated guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list. Authentic food, honest recommendations, and real local knowledge from the North Coast." data-es="La guía curada definitiva de los mejores restaurantes en Cabarete, República Dominicana. Solo los mejores aparecen aquí. Comida auténtica, recomendaciones honestas y conocimiento local real de la Costa Norte.">The definitive curated guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list. Authentic food, honest recommendations, and real local knowledge from the North Coast.</p>
+        <a href="mailto:sales@eyetoad.com" style="color:var(--teal-bright);font-size:13px;font-weight:600;text-decoration:none">📧 sales@eyetoad.com</a>
+      </div>
+
+      <!-- Explore -->
+      <div>
+        <h5 style="color:#fff;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px;font-family:'Syne',sans-serif" data-en="Explore" data-es="Explorar">Explore</h5>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:10px">
+          <li><a href="#restaurants" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px;transition:color .2s" data-en="Best Restaurants Cabarete" data-es="Mejores Restaurantes Cabarete" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'">Best Restaurants Cabarete</a></li>
+          <li><a href="#bucket-list" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px;transition:color .2s" data-en="Food Bucket List Builder" data-es="Creador de Lista de Comidas" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'">Food Bucket List Builder</a></li>
+          <li><a href="#menu" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" data-en="Gordito's Fresh Mex Menu" data-es="Menú de Gordito's" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'">Gordito's Fresh Mex Menu</a></li>
+          <li><a href="#recipes" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" data-en="Dominican Recipes" data-es="Recetas Dominicanas" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'">Dominican Recipes</a></li>
+          <li><a href="#faq" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" data-en="Cabarete Restaurants FAQ" data-es="FAQ Restaurantes Cabarete" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'">Cabarete Restaurants FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- DR Network -->
+      <div>
+        <h5 style="color:#fff;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px;font-family:'Syne',sans-serif" data-en="DR Network" data-es="Red DR">DR Network</h5>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:10px">
+          <li><a href="https://cabaretebeachdominicanrepublic.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Cabarete Beach Guide" data-es="Guía Playa Cabarete">Cabarete Beach Guide</a></li>
+          <li><a href="https://puertoplatarestaurants.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Puerto Plata Restaurants" data-es="Restaurantes Puerto Plata">Puerto Plata Restaurants</a></li>
+          <li><a href="https://dominicanrepublicvacationspots.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="DR Vacation Spots" data-es="Lugares Vacacionales RD">DR Vacation Spots</a></li>
+          <li><a href="https://thingstodoinpuertoplata.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Things To Do Puerto Plata" data-es="Qué Hacer Puerto Plata">Things To Do Puerto Plata</a></li>
+          <li><a href="https://dominicanrepublicplacestovisit.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="DR Places to Visit" data-es="Lugares para Visitar RD">DR Places to Visit</a></li>
+          <li><a href="https://dominicanrealestatetour.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Dominican Real Estate Tour" data-es="Tour Inmobiliario Dominicano">Dominican Real Estate Tour</a></li>
+          <li><a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Cabarete Condos For Sale" data-es="Condos en Venta Cabarete">Cabarete Condos For Sale</a></li>
+        </ul>
+      </div>
+
+      <!-- Advertise -->
+      <div>
+        <h5 style="color:#fff;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px;font-family:'Syne',sans-serif" data-en="Advertise" data-es="Publicidad">Advertise</h5>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:10px">
+          <li><a href="mailto:sales@eyetoad.com?subject=Restaurant%20Listing" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="List Your Restaurant" data-es="Añade tu Restaurante">List Your Restaurant</a></li>
+          <li><a href="mailto:sales@eyetoad.com?subject=Featured%20Listing" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Featured Listings" data-es="Listados Destacados">Featured Listings</a></li>
+          <li><a href="mailto:sales@eyetoad.com?subject=Banner%20Ad" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Banner Advertising" data-es="Publicidad en Banner">Banner Advertising</a></li>
+          <li><a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.5)'" data-en="Dominican Republic Advertising Agency" data-es="Agencia Publicidad República Dominicana">Dominican Republic Advertising Agency</a></li>
+          <li><a href="https://www.eyetoad.com" target="_blank" rel="nofollow noopener" style="color:rgba(255,255,255,.5);text-decoration:none;font-size:13px" onmouseover="this.style.color='#f9c74f'" onmouseout="this.style.color='rgba(255,255,255,.5)'">Eye To Ad Media</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="footer-col">
-      <h5 data-en="Explore" data-es="Explorar">Explore</h5>
-      <ul>
-        <li><a href="#restaurants" data-en="Best Restaurants" data-es="Mejores Restaurantes">Best Restaurants</a></li>
-        <li><a href="#bucket-list" data-en="My Food List" data-es="Mi Lista de Comidas">My Food List</a></li>
-        <li><a href="#menu" data-en="Gordito's Menu" data-es="Menú de Gordito's">Gordito's Menu</a></li>
-        <li><a href="#recipes" data-en="DR Recipes" data-es="Recetas DR">DR Recipes</a></li>
-        <li><a href="#faq">FAQ</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h5 data-en="Nearby" data-es="Cerca de Aquí">Nearby</h5>
-      <ul>
-        <li><a href="https://puertoplatarestaurants.com" target="_blank" rel="noopener" data-en="Puerto Plata Restaurants" data-es="Restaurantes Puerto Plata">Puerto Plata Restaurants</a></li>
-        <li><a href="https://cabaretebeachdominicanrepublic.com" target="_blank" rel="noopener" data-en="Cabarete Beach Guide" data-es="Guía Playa Cabarete">Cabarete Beach Guide</a></li>
-        <li><a href="https://thingstodoinpuertoplata.com" target="_blank" rel="noopener" data-en="Things To Do Puerto Plata" data-es="Qué Hacer en Puerto Plata">Things To Do Puerto Plata</a></li>
-        <li><a href="https://dominicanrepublicvacationspots.com" target="_blank" rel="noopener" data-en="DR Vacation Spots" data-es="Lugares Vacacionales RD">DR Vacation Spots</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h5 data-en="Advertise" data-es="Publicidad">Advertise</h5>
-      <ul>
-        <li><a href="mailto:sales@eyetoad.com?subject=Featured%20Listing" data-en="Featured Listings" data-es="Listados Destacados">Featured Listings</a></li>
-        <li><a href="mailto:sales@eyetoad.com?subject=Banner%20Ad" data-en="Banner Ads" data-es="Banners Publicitarios">Banner Ads</a></li>
-        <li><a href="mailto:sales@eyetoad.com?subject=Sponsored%20Content" data-en="Sponsored Content" data-es="Contenido Patrocinado">Sponsored Content</a></li>
-        <li><a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" data-en="Dominican Republic Advertising Agency" data-es="Agencia Publicidad República Dominicana">DR Advertising Agency</a></li>
-        <li><a href="mailto:sales@eyetoad.com" data-en="Contact Us" data-es="Contáctanos">Contact Us</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>© 2026 CabareteRestaurants.com — <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
-    <div class="footer-sitemap-links">
-      <a href="/sitemap.xml" data-en="XML Sitemap" data-es="Mapa del Sitio XML">XML Sitemap</a>
-      <a href="/sitemap.html" data-en="HTML Sitemap" data-es="Mapa del Sitio HTML">HTML Sitemap</a>
-      <a href="/robots.txt">robots.txt</a>
-      <a href="mailto:sales@eyetoad.com" data-en="Contact" data-es="Contacto">Contact</a>
-      <a href="#faq">FAQ</a>
-    </div>
-    <div class="powered-by">
-      🌴 <span data-en="Built &amp; Optimized by" data-es="Construido y Optimizado por">Built &amp; Optimized by</span>
-      <a href="https://www.eyetoad.com" target="_blank" rel="nofollow noopener">Eye To Ad Media</a>
-      &nbsp;·&nbsp;
-      <a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" data-en="Dominican Republic Advertising" data-es="Publicidad República Dominicana">Dominican Republic Advertising</a>
+
+    <!-- Divider -->
+    <div style="border-top:1px solid rgba(255,255,255,.07);padding-top:24px;display:flex;flex-direction:column;align-items:center;gap:12px;text-align:center">
+
+      <!-- Sitemap + robots links -->
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;font-size:12px">
+        <a href="/sitemap.xml" style="color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.3)'" data-en="XML Sitemap" data-es="Mapa XML">XML Sitemap</a>
+        <a href="/sitemap.html" style="color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.3)'" data-en="HTML Sitemap" data-es="Mapa HTML">HTML Sitemap</a>
+        <a href="/robots.txt" style="color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.3)'">robots.txt</a>
+        <a href="#faq" style="color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.3)'">FAQ</a>
+        <a href="mailto:sales@eyetoad.com" style="color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(255,255,255,.3)'" data-en="Contact" data-es="Contacto">Contact</a>
+      </div>
+
+      <!-- Copyright -->
+      <p style="font-size:12px;color:rgba(255,255,255,.3)">
+        © 2026 CabareteRestaurants.com &nbsp;·&nbsp; <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span>
+      </p>
+
+      <!-- Powered by -->
+      <div style="display:inline-flex;align-items:center;gap:6px;font-size:12px;color:rgba(255,255,255,.25)">
+        🌴 <span data-en="Built &amp; SEO-Optimized by" data-es="Construido y Optimizado por">Built &amp; SEO-Optimized by</span>
+        <a href="https://www.eyetoad.com" target="_blank" rel="nofollow noopener" style="color:rgba(212,168,80,.65);font-weight:700;text-decoration:none" onmouseover="this.style.color='#f9c74f'" onmouseout="this.style.color='rgba(212,168,80,.65)'">Eye To Ad Media</a>
+        &nbsp;·&nbsp;
+        <a href="https://seodominicanrepublic.com" target="_blank" rel="noopener" style="color:rgba(0,180,216,.55);font-weight:600;text-decoration:none" onmouseover="this.style.color='#00b4d8'" onmouseout="this.style.color='rgba(0,180,216,.55)'" data-en="Dominican Republic Advertising" data-es="Publicidad República Dominicana">Dominican Republic Advertising</a>
+      </div>
+
     </div>
   </div>
 </footer>
