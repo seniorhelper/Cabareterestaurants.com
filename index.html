@@ -16,7 +16,7 @@
 <meta name="citation_online_date" content="2026-01-01"/>
 <meta name="article:author" content="Eye To Ad Media"/>
 <meta name="article:published_time" content="2026-01-01T00:00:00Z"/>
-<meta name="article:modified_time" content="2026-05-01T00:00:00Z"/>
+<meta name="article:modified_time" content="2026-05-23T00:00:00Z"/>
 
 <!-- Geo -->
 <meta name="geo.region" content="DO-18"/>
@@ -69,6 +69,8 @@
   LANGUAGE: English / Spanish bilingual
   UPDATED: 2026-05
   AUTHORITY SIGNALS: First-hand reviews, local expertise, Dominican expat community knowledge
+  PRIMARY KEYWORD: Cabarete restaurants
+  SECONDARY KEYWORDS: best restaurants Cabarete DR, places to eat Cabarete, Cabarete food guide, Gordito's Fresh Mex Cabarete
 -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -154,9 +156,11 @@ h2{font-family:'Lora',serif;font-size:clamp(1.9rem,3.5vw,2.8rem);font-weight:600
 .section-intro{font-size:1.05rem;color:var(--text-soft);line-height:1.8;max-width:700px;margin-bottom:48px}
 
 /* ─── QUICK ANSWER ─── */
-.quick-answer{background:linear-gradient(135deg,#e8f9fd,#caf0f8);border-left:5px solid var(--teal-bright);max-width:960px;margin:48px auto;padding:28px 32px;border-radius:0 var(--r) var(--r) 0}
-.qa-label{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--teal-mid);margin-bottom:10px;font-family:'Syne',sans-serif}
-.quick-answer p{font-size:1.05rem;line-height:1.75;color:var(--teal)}
+/* FIX #1: Enlarged and improved Quick Answer title */
+.quick-answer{background:linear-gradient(135deg,#e8f9fd,#caf0f8);border-left:5px solid var(--teal-bright);max-width:960px;margin:48px auto;padding:32px 36px;border-radius:0 var(--r) var(--r) 0;box-shadow:0 4px 20px rgba(0,95,115,0.1)}
+.qa-label{font-family:'Lora',serif;font-size:1.25rem;font-weight:600;font-style:italic;color:var(--teal);margin-bottom:16px;display:flex;align-items:center;gap:10px;line-height:1.3}
+.qa-label-icon{font-size:1.4rem;flex-shrink:0}
+.quick-answer p{font-size:1.05rem;line-height:1.8;color:var(--teal)}
 
 /* ─── NEON GORDITOS AD ─── */
 .gorditos-wrap{max-width:1100px;margin:0 auto 64px;padding:0 24px}
@@ -281,58 +285,43 @@ h2{font-family:'Lora',serif;font-size:clamp(1.9rem,3.5vw,2.8rem);font-weight:600
 .menu-note{text-align:center;padding:0 32px 28px;font-size:13px;color:var(--text-soft);font-style:italic}
 .menu-note strong{color:var(--coral)}
 
-/* ─── LINDA BAHAR AD ─── */
-.linda-wrap{max-width:1100px;margin:0 auto 0;padding:0 24px}
-.linda-tagline-top{text-align:center;margin-bottom:18px}
-.linda-tagline-top p{font-family:'Lora',serif;font-size:clamp(1rem,1.8vw,1.35rem);font-style:italic;color:var(--teal);font-weight:600}
-.linda-ad{position:relative;border-radius:18px;overflow:hidden;background:linear-gradient(135deg,#0d0d1a 0%,#1a1a2e 50%,#0d0d1a 100%);box-shadow:0 0 0 2px rgba(212,168,80,.4),0 20px 60px rgba(0,0,0,.5)}
-.linda-ad-inner{display:grid;grid-template-columns:auto 1fr auto;gap:28px;align-items:center;padding:32px 36px}
-.linda-photo-col{flex-shrink:0}
-.linda-photo{width:100px;height:100px;border-radius:50%;border:3px solid rgba(212,168,80,.6);object-fit:cover;display:block;background:#222}
-.linda-photo-placeholder{width:100px;height:100px;border-radius:50%;border:3px solid rgba(212,168,80,.6);background:linear-gradient(135deg,#2a2a4a,#1a1a2e);display:flex;align-items:center;justify-content:center;font-size:36px;flex-shrink:0}
-.linda-content h3{font-family:'Lora',serif;font-size:clamp(1.3rem,2.5vw,1.8rem);color:#fff;margin-bottom:4px}
-.linda-content h3 em{font-style:italic;color:var(--mango)}
-.linda-title{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:rgba(212,168,80,.8);margin-bottom:10px;font-family:'Syne',sans-serif}
-.linda-sub{font-size:.88rem;color:rgba(200,200,230,.8);line-height:1.6;margin-bottom:14px;max-width:500px}
-.linda-contact-row{display:flex;align-items:center;gap:20px;flex-wrap:wrap}
-.linda-contact-row a{color:var(--mango);font-weight:700;text-decoration:none;font-size:13px;transition:color .2s}
-.linda-contact-row a:hover{color:#fff}
-.linda-cta{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,rgba(212,168,80,0.9),rgba(180,130,40,0.9));color:var(--dark);font-family:'Syne',sans-serif;font-weight:800;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:14px 22px;border-radius:50px;text-decoration:none;white-space:nowrap;transition:all .2s;flex-shrink:0;align-self:center;border:1px solid rgba(212,168,80,.4)}
-.linda-cta:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(212,168,80,.4)}
-.linda-bottom{display:flex;align-items:center;gap:10px;background:rgba(212,168,80,.08);border-top:1px solid rgba(212,168,80,.18);padding:10px 36px;font-size:12px;color:rgba(212,168,80,.8);font-weight:600}
-@media(max-width:760px){.linda-ad-inner{grid-template-columns:1fr}.linda-cta{width:100%;justify-content:center}.linda-photo-col{display:none}}
-
-/* ─── RECIPES ─── */
-.recipe-grid{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:8px}
-.recipe-card{background:#fff;border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
-.recipe-card-header{padding:28px 28px 20px;border-bottom:2px solid var(--aqua-light)}
-.recipe-card-header h3{font-family:'Lora',serif;font-size:1.4rem;color:var(--teal);margin-bottom:6px}
-.recipe-card-header p{font-size:.9rem;color:var(--text-soft);line-height:1.6}
-.recipe-card-body{padding:24px 28px}
-.recipe-card-body h4{font-family:'Syne',sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--teal-bright);margin-bottom:10px}
-.recipe-card-body ul{list-style:none;margin-bottom:20px}
-.recipe-card-body ul li{font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px}
-.recipe-card-body ul li::before{content:'•';color:var(--teal-bright);flex-shrink:0;margin-top:1px}
-.recipe-card-body ol{list-style:none;counter-reset:step}
-.recipe-card-body ol li{counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5}
-.recipe-card-body ol li::before{content:counter(step);position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif}
-@media(max-width:768px){.recipe-grid{grid-template-columns:1fr}}
-
-/* ─── REVIEW BLOCK (ZACH) ─── */
-.zach-review-section{background:linear-gradient(135deg,var(--coral),var(--coral-deep));padding:64px 24px;text-align:center;position:relative;overflow:hidden}
-.zach-review-section::before{content:'';position:absolute;top:-60px;left:-60px;width:240px;height:240px;background:rgba(255,255,255,.08);border-radius:50%}
-.zach-review-section::after{content:'';position:absolute;bottom:-40px;right:-40px;width:180px;height:180px;background:rgba(0,0,0,.1);border-radius:50%}
-.zach-review-inner{position:relative;z-index:1;max-width:760px;margin:0 auto}
-.zach-quote-mark{font-size:80px;color:rgba(255,255,255,.3);font-family:'Lora',serif;line-height:.8;margin-bottom:8px}
-.zach-review-text{font-family:'Lora',serif;font-size:clamp(1.2rem,2.5vw,1.6rem);font-style:italic;color:#fff;line-height:1.6;margin-bottom:20px;text-shadow:0 2px 8px rgba(0,0,0,.2)}
-.zach-review-byline{font-size:14px;color:rgba(255,255,255,.85);font-weight:700;font-family:'Syne',sans-serif;text-transform:uppercase;letter-spacing:1.5px}
-.zach-review-byline span{color:rgba(255,255,255,.55);font-weight:400;text-transform:none;letter-spacing:0;font-family:'Nunito',sans-serif}
-.zach-stars{color:var(--mango);font-size:22px;margin-bottom:12px;display:block}
+/* ─── ADVERTISING SPOT — Mid-Page ─── */
+.ad-spot-section{background:var(--sand);padding:64px 24px}
+.ad-spot-wrap{max-width:860px;margin:0 auto}
+.ad-spot-card{
+  position:relative;
+  border-radius:18px;
+  overflow:hidden;
+  background:linear-gradient(135deg,#0a1628 0%,#142236 50%,#0a1628 100%);
+  border:2px dashed rgba(249,199,79,.4);
+  box-shadow:0 8px 40px rgba(0,0,0,.3);
+}
+.ad-spot-inner{padding:44px 48px;text-align:center;position:relative;z-index:1}
+.ad-spot-inner::before{
+  content:'';position:absolute;top:-60px;left:-60px;width:220px;height:220px;
+  background:radial-gradient(circle,rgba(0,180,216,0.08) 0%,transparent 70%);
+  border-radius:50%;pointer-events:none
+}
+.ad-spot-inner::after{
+  content:'';position:absolute;bottom:-60px;right:-60px;width:200px;height:200px;
+  background:radial-gradient(circle,rgba(249,199,79,0.06) 0%,transparent 70%);
+  border-radius:50%;pointer-events:none
+}
+.ad-spot-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(249,199,79,.1);border:1px solid rgba(249,199,79,.35);color:var(--mango);font-family:'Syne',sans-serif;font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:5px 16px;border-radius:20px;margin-bottom:20px}
+.ad-spot-inner h3{font-family:'Lora',serif;font-size:clamp(1.6rem,3vw,2.4rem);font-weight:600;color:#fff;line-height:1.2;margin-bottom:12px}
+.ad-spot-inner h3 em{font-style:italic;color:var(--teal-bright)}
+.ad-spot-inner p{font-size:1rem;color:rgba(255,255,255,.7);line-height:1.75;max-width:580px;margin:0 auto 28px}
+.ad-spot-price{display:inline-block;background:rgba(249,199,79,.12);border:1px solid rgba(249,199,79,.4);color:var(--mango);font-family:'Syne',sans-serif;font-size:13px;font-weight:800;padding:8px 22px;border-radius:20px;letter-spacing:.5px;margin-bottom:28px}
+.ad-spot-features{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-bottom:32px}
+.ad-spot-feat{background:rgba(0,180,216,.08);border:1px solid rgba(0,180,216,.2);color:var(--teal-bright);font-size:12px;font-weight:700;padding:5px 14px;border-radius:20px;font-family:'Syne',sans-serif}
+.ad-spot-cta{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(135deg,var(--teal-bright),var(--teal-mid));color:#fff;font-family:'Syne',sans-serif;font-weight:800;font-size:14px;letter-spacing:.04em;text-transform:uppercase;padding:16px 32px;border-radius:50px;text-decoration:none;box-shadow:0 4px 24px rgba(0,180,216,.4);transition:all .25s}
+.ad-spot-cta:hover{transform:translateY(-2px);box-shadow:0 8px 36px rgba(0,180,216,.6)}
+.ad-spot-sub{font-size:12px;color:rgba(255,255,255,.35);margin-top:16px;font-family:'Syne',sans-serif}
+.ad-spot-sub a{color:var(--teal-bright);text-decoration:none}
 
 /* ─── EYE TO AD MEDIA — ROCKET AD ─── */
 .rocket-ad-section{position:relative;overflow:hidden;background:var(--dark);padding:0;min-height:420px;display:flex;align-items:center}
 .rocket-ad-bg{position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(0,95,115,0.35) 0%,transparent 60%),radial-gradient(ellipse at 80% 30%,rgba(0,180,216,0.15) 0%,transparent 50%),linear-gradient(135deg,#060e1a 0%,#0a1628 50%,#0a1628 100%)}
-/* Stars background */
 .rocket-ad-stars{position:absolute;inset:0;overflow:hidden}
 .rocket-ad-stars::before,.rocket-ad-stars::after{content:'';position:absolute;inset:0;background-image:
   radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.8) 0%, transparent 100%),
@@ -404,10 +393,8 @@ background-size:100% 100%}
 @keyframes orbitSpin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 .launch-pad{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:80px;height:8px;background:linear-gradient(90deg,transparent,rgba(0,180,216,.4),transparent);border-radius:4px}
 .launch-pad::before{content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:40px;height:4px;background:rgba(0,180,216,.6);border-radius:2px}
-/* Ground glow */
 .ground-glow{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);width:100px;height:20px;background:radial-gradient(ellipse,rgba(57,255,20,0.4) 0%,transparent 70%);animation:glowPulse 0.2s ease-in-out infinite alternate}
 @keyframes glowPulse{from{opacity:0.6;transform:translateX(-50%) scaleX(1)}to{opacity:1;transform:translateX(-50%) scaleX(1.3)}}
-/* Rocket window glow */
 .window-glow{animation:windowPulse 2s ease-in-out infinite}
 @keyframes windowPulse{0%,100%{fill:#00d4ff}50%{fill:#ffffff}}
 
@@ -464,11 +451,23 @@ background-size:100% 100%}
 .form-privacy{font-size:12px;color:var(--text-soft);text-align:center;margin-top:12px}
 @media(max-width:600px){.form-row{grid-template-columns:1fr}}
 
-/* ─── FOOTER — FIXED ─── */
+/* ─── REVIEW BLOCK (ZACH) ─── */
+.zach-review-section{background:linear-gradient(135deg,var(--coral),var(--coral-deep));padding:64px 24px;text-align:center;position:relative;overflow:hidden}
+.zach-review-section::before{content:'';position:absolute;top:-60px;left:-60px;width:240px;height:240px;background:rgba(255,255,255,.08);border-radius:50%}
+.zach-review-section::after{content:'';position:absolute;bottom:-40px;right:-40px;width:180px;height:180px;background:rgba(0,0,0,.1);border-radius:50%}
+.zach-review-inner{position:relative;z-index:1;max-width:760px;margin:0 auto}
+.zach-quote-mark{font-size:80px;color:rgba(255,255,255,.3);font-family:'Lora',serif;line-height:.8;margin-bottom:8px}
+.zach-review-text{font-family:'Lora',serif;font-size:clamp(1.2rem,2.5vw,1.6rem);font-style:italic;color:#fff;line-height:1.6;margin-bottom:20px;text-shadow:0 2px 8px rgba(0,0,0,.2)}
+.zach-review-byline{font-size:14px;color:rgba(255,255,255,.85);font-weight:700;font-family:'Syne',sans-serif;text-transform:uppercase;letter-spacing:1.5px}
+.zach-review-byline span{color:rgba(255,255,255,.55);font-weight:400;text-transform:none;letter-spacing:0;font-family:'Nunito',sans-serif}
+.zach-stars{color:var(--mango);font-size:22px;margin-bottom:12px;display:block}
+
+/* ─── FOOTER — FIXED (FIX #3: logo removed, clean text only) ─── */
 footer{background:var(--dark-footer);padding:60px 24px 24px;color:rgba(255,255,255,.6)}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;max-width:1100px;margin:0 auto 40px}
-.footer-brand-logo{height:50px;width:auto;max-width:220px;object-fit:contain;object-position:left center;display:block;margin-bottom:16px;filter:brightness(0) invert(1)}
 .footer-brand p{font-size:.87rem;line-height:1.7;color:rgba(255,255,255,.45);margin-bottom:14px}
+.footer-brand-name{font-family:'Lora',serif;font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:12px;letter-spacing:-.01em}
+.footer-brand-name em{font-style:italic;color:var(--teal-bright)}
 .footer-brand-email-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:4px}
 .footer-brand-email-row a{color:var(--teal-bright);font-size:13px;font-weight:600;text-decoration:none}
 .footer-brand-email-row a:hover{color:#fff;text-decoration:underline}
@@ -507,19 +506,20 @@ html,body{max-width:100%;overflow-x:hidden}
   .hero-btns{flex-direction:column}
   .hero-btns a{width:100%;justify-content:center}
   section{padding:48px 16px}
-  .quick-answer{margin:24px 16px;padding:20px}
-  .gorditos-wrap,.linda-wrap{padding:0 16px}
+  .quick-answer{margin:24px 16px;padding:24px}
+  .gorditos-wrap,.ad-spot-wrap{padding:0 16px}
   .angled-break,.angled-break-bottom{clip-path:none;padding:60px 16px}
   .rest-grid{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr;gap:20px}
   .gorditos-image-ad-section{padding:40px 16px}
   .gorditos-image-frame-overlay{flex-direction:column;align-items:flex-start}
   .gorditos-img-ctas{flex-direction:row;flex-wrap:wrap}
+  .ad-spot-inner{padding:32px 24px}
 }
 
 /* ─── PRINT ─── */
 @media print{
-  header,.lang-bar,.hero,.gorditos-ad,.linda-ad,.rocket-ad-section,.form-section,.bucket-section,.advertise-section,footer,.wave,.gorditos-image-ad-section{display:none}
+  header,.lang-bar,.hero,.gorditos-ad,.rocket-ad-section,.form-section,.bucket-section,.advertise-section,footer,.wave,.gorditos-image-ad-section,.ad-spot-section{display:none}
   body{font-size:12px;color:#000}
   h2,h3,h4{color:#000}
   .bucket-list-entry{border:1px solid #ccc;margin-bottom:6px;padding:8px}
@@ -580,10 +580,13 @@ html,body{max-width:100%;overflow-x:hidden}
   </div>
 </section>
 
-<!-- QUICK ANSWER BOX -->
+<!-- QUICK ANSWER BOX — FIX #1: Larger, bolder, more readable title -->
 <div class="container" style="padding:0 24px">
   <div class="quick-answer fade-up">
-    <div class="qa-label">📍 <span data-en="Quick Answer — What's the food scene like in Cabarete?" data-es="Respuesta Rápida — ¿Cómo es la escena gastronómica de Cabarete?">Quick Answer — What's the food scene like in Cabarete?</span></div>
+    <div class="qa-label">
+      <span class="qa-label-icon">📍</span>
+      <span data-en="Quick Answer — What's the food scene like in Cabarete?" data-es="Respuesta Rápida — ¿Cómo es la escena gastronómica de Cabarete?">Quick Answer — What's the food scene like in Cabarete?</span>
+    </div>
     <p data-en="&lt;strong&gt;Cabarete has one of the most diverse and exciting dining scenes on the entire Dominican Republic's North Coast.&lt;/strong&gt; Over 50 restaurants line the beachfront and surrounding streets, representing more than a dozen nationalities. The ingredients are local and fresh — fish comes off the boat daily, tropical fruit is harvested nearby, and Dominican chefs have perfected generations-old recipes. Whether you want your toes in the sand at a beachfront seafood shack or a romantic candlelit dinner overlooking the ocean, Cabarete delivers. The town's international expat community means quality standards are genuinely high." data-es="&lt;strong&gt;Cabarete tiene una de las escenas gastronómicas más diversas y emocionantes de toda la Costa Norte de la República Dominicana.&lt;/strong&gt; Más de 50 restaurantes bordean el frente de playa y las calles circundantes, representando más de una docena de nacionalidades. Los ingredientes son locales y frescos — el pescado llega diariamente del barco, las frutas tropicales son cosechadas cerca, y los chefs dominicanos han perfeccionado recetas de generaciones. Ya sea que quieras los pies en la arena en un puesto de mariscos o una romántica cena a la luz de las velas frente al océano, Cabarete lo tiene todo.">
       <strong>Cabarete has one of the most diverse and exciting dining scenes on the entire Dominican Republic's North Coast.</strong> Over 50 restaurants line the beachfront and surrounding streets, representing more than a dozen nationalities. The ingredients are local and fresh — fish comes off the boat daily, tropical fruit is harvested nearby, and Dominican chefs have perfected generations-old recipes. Whether you want your toes in the sand at a beachfront seafood shack or a romantic candlelit dinner overlooking the ocean, Cabarete delivers. The town's international expat community means quality standards are genuinely high.
     </p>
@@ -962,7 +965,7 @@ html,body{max-width:100%;overflow-x:hidden}
 <!-- WAVE BACK TO WHITE -->
 <div class="wave" style="background:var(--coral-deep)"><svg viewBox="0 0 1440 60" xmlns="http://www.w3.org/2000/svg"><path d="M0,0 C480,60 960,0 1440,40 L1440,60 L0,60 Z" fill="#fff"/></svg></div>
 
-<!-- GORDITO'S BOTTOM IMAGE AD — NEW -->
+<!-- GORDITO'S BOTTOM IMAGE AD -->
 <div class="gorditos-image-ad-section">
   <div class="gorditos-image-ad-wrap fade-up">
     <div class="gorditos-image-ad-label">
@@ -991,33 +994,28 @@ html,body{max-width:100%;overflow-x:hidden}
   </div>
 </div>
 
-<!-- LINDA BAHAR AD -->
-<section style="background:var(--sand);padding:64px 24px">
-  <div class="linda-wrap">
-    <div class="linda-tagline-top">
-      <p data-en="Just read the five-star reviews and you'll see why this is &lt;em&gt;the only real estate agent you'll want in Cabarete.&lt;/em&gt; Simply the best." data-es="Solo lee las reseñas de cinco estrellas y verás por qué esta es &lt;em&gt;la única agente inmobiliaria que querrás en Cabarete.&lt;/em&gt; Simplemente la mejor.">Just read the five-star reviews and you'll see why this is <em>the only real estate agent you'll want in Cabarete.</em> Simply the best.</p>
-    </div>
-    <div class="linda-ad fade-up">
-      <div class="linda-ad-inner">
-        <div class="linda-photo-col">
-          <div class="linda-photo-placeholder">👩‍💼</div>
+<!-- FIX #2: LINDA BAHAR REMOVED — REPLACED WITH OPEN ADVERTISING SPOT -->
+<section class="ad-spot-section">
+  <div class="ad-spot-wrap">
+    <div class="ad-spot-card fade-up">
+      <div class="ad-spot-inner">
+        <div class="ad-spot-eyebrow">📣 Prime Advertising Spot Available</div>
+        <h3 data-en="Your Business Could Own <em>This Space</em>" data-es="Tu Negocio Podría Tener <em>Este Espacio</em>">Your Business Could Own <em>This Space</em></h3>
+        <p data-en="This mid-page placement is seen by thousands of visitors every month — tourists actively planning their Cabarete trip. Hotels, tour operators, real estate agents, restaurants, and local businesses are all welcome. Get discovered by exactly the right audience at exactly the right moment." data-es="Este espacio de mitad de página es visto por miles de visitantes cada mes — turistas que planifican activamente su viaje a Cabarete. Hoteles, operadores turísticos, agentes inmobiliarios, restaurantes y negocios locales son todos bienvenidos. Haz que te descubran la audiencia correcta en el momento correcto.">
+          This mid-page placement is seen by thousands of visitors every month — tourists actively planning their Cabarete trip. Hotels, tour operators, real estate agents, restaurants, and local businesses are all welcome. Get discovered by exactly the right audience at exactly the right moment.
+        </p>
+        <div class="ad-spot-price">⭐ Advertising starting at only $25/month</div>
+        <div class="ad-spot-features">
+          <span class="ad-spot-feat">📸 Your Photo</span>
+          <span class="ad-spot-feat">🔗 Direct Link to Your Site</span>
+          <span class="ad-spot-feat">📍 Directions Button</span>
+          <span class="ad-spot-feat">📝 Your Description</span>
+          <span class="ad-spot-feat">🤖 AI Citation Optimized</span>
+          <span class="ad-spot-feat">📱 Mobile Friendly</span>
         </div>
-        <div class="linda-content">
-          <div class="linda-title" data-en="CEO &amp; Founder — Real Estate Group" data-es="CEO y Fundadora — Grupo Inmobiliario">CEO &amp; Founder — Real Estate Group</div>
-          <h3>Linda Bahar — <em data-en="Cabarete's Premier Real Estate Expert" data-es="La Principal Experta Inmobiliaria de Cabarete">Cabarete's Premier Real Estate Expert</em></h3>
-          <p class="linda-sub" data-en="Thinking about investing in paradise? Linda Bahar has helped hundreds of buyers and investors find their perfect piece of the Dominican Republic's stunning North Coast. Based at Plaza Ocean Dream in Cabarete, Linda and her team know every neighborhood, every building, and every deal worth making." data-es="¿Pensando en invertir en el paraíso? Linda Bahar ha ayudado a cientos de compradores e inversores a encontrar su pedacito perfecto de la impresionante Costa Norte de la República Dominicana. Con base en Plaza Ocean Dream en Cabarete, Linda y su equipo conocen cada vecindario, cada edificio y cada negocio que vale la pena hacer.">
-            Thinking about investing in paradise? Linda Bahar has helped hundreds of buyers and investors find their perfect piece of the Dominican Republic's stunning North Coast. Based at Plaza Ocean Dream in Cabarete, Linda and her team know every neighborhood, every building, and every deal worth making.
-          </p>
-          <div class="linda-contact-row">
-            <a href="tel:+18294701555">📞 +1-829-470-1555</a>
-            <a href="tel:+18296385274">📞 +1-829-638-5274 (Office)</a>
-            <a href="mailto:linda@lindabahar.com">✉ linda@lindabahar.com</a>
-            <a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener">🌐 cabaretecondosforsale.com</a>
-          </div>
-        </div>
-        <a href="https://cabaretecondosforsale.com" target="_blank" rel="noopener" class="linda-cta" data-en="View Properties →" data-es="Ver Propiedades →">View Properties →</a>
+        <a href="mailto:sales@eyetoad.com?subject=Advertising%20Inquiry%20—%20CabareteRestaurants.com&body=Hi%2C%0A%0AI'm%20interested%20in%20advertising%20on%20CabareteRestaurants.com.%0A%0ABusiness%20name%3A%0AWebsite%3A%0APhone%3A%0ATell%20us%20about%20your%20business%3A%0A%0AThanks!" class="ad-spot-cta" data-en="📧 Inquire About This Spot" data-es="📧 Consultar Sobre Este Espacio">📧 Inquire About This Spot</a>
+        <div class="ad-spot-sub" data-en="Reply within 24 hours · No long-term contracts · <a href='mailto:sales@eyetoad.com'>sales@eyetoad.com</a>" data-es="Respuesta en 24 horas · Sin contratos a largo plazo · <a href='mailto:sales@eyetoad.com'>sales@eyetoad.com</a>">Reply within 24 hours · No long-term contracts · <a href="mailto:sales@eyetoad.com">sales@eyetoad.com</a></div>
       </div>
-      <div class="linda-bottom">🏡 <span data-en="12-115 Ocean Dream Plaza, Cabarete, Dominican Republic — Serving buyers &amp; investors along the entire North Coast" data-es="12-115 Plaza Ocean Dream, Cabarete, República Dominicana — Al servicio de compradores e inversores en toda la Costa Norte">12-115 Ocean Dream Plaza, Cabarete, Dominican Republic — Serving buyers &amp; investors along the entire North Coast</span></div>
     </div>
   </div>
 </section>
@@ -1033,67 +1031,67 @@ html,body{max-width:100%;overflow-x:hidden}
     <p class="section-intro" data-en="You've eaten at the restaurants. Now bring the flavors home. These two dishes define Dominican cooking — Sancocho for the soul, Tostones for every occasion. They're easier than you think." data-es="Ya comiste en los restaurantes. Ahora lleva los sabores a casa. Estos dos platos definen la cocina dominicana — Sancocho para el alma, Tostones para cada ocasión. Son más fáciles de lo que crees.">
       You've eaten at the restaurants. Now bring the flavors home. These two dishes define Dominican cooking — Sancocho for the soul, Tostones for every occasion. They're easier than you think.
     </p>
-    <div class="recipe-grid">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:8px">
 
       <!-- SANCOCHO -->
-      <div class="recipe-card fade-up">
-        <div class="recipe-card-header">
-          <h3 data-en="🍲 Dominican Sancocho" data-es="🍲 Sancocho Dominicano">🍲 Dominican Sancocho</h3>
-          <p data-en="The national soul food of the Dominican Republic. A rich, hearty stew of meats and root vegetables simmered for hours. Made for celebration, rainy days, and bringing people together. Ask any Dominican — nothing fixes everything like a bowl of Sancocho." data-es="El plato de confort nacional de la República Dominicana. Un rico y contundente guiso de carnes y vegetales de raíz cocido a fuego lento durante horas. Hecho para celebrar, días lluviosos y unir personas. Pregúntale a cualquier dominicano — nada lo arregla todo como un tazón de Sancocho.">The national soul food of the Dominican Republic. A rich, hearty stew of meats and root vegetables simmered for hours. Made for celebration, rainy days, and bringing people together. Ask any Dominican — nothing fixes everything like a bowl of Sancocho.</p>
+      <div style="background:#fff;border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden" class="fade-up">
+        <div style="padding:28px 28px 20px;border-bottom:2px solid var(--aqua-light)">
+          <h3 style="font-family:'Lora',serif;font-size:1.4rem;color:var(--teal);margin-bottom:6px" data-en="🍲 Dominican Sancocho" data-es="🍲 Sancocho Dominicano">🍲 Dominican Sancocho</h3>
+          <p style="font-size:.9rem;color:var(--text-soft);line-height:1.6" data-en="The national soul food of the Dominican Republic. A rich, hearty stew of meats and root vegetables simmered for hours. Made for celebration, rainy days, and bringing people together. Ask any Dominican — nothing fixes everything like a bowl of Sancocho." data-es="El plato de confort nacional de la República Dominicana. Un rico y contundente guiso de carnes y vegetales de raíz cocido a fuego lento durante horas. Hecho para celebrar, días lluviosos y unir personas. Pregúntale a cualquier dominicano — nada lo arregla todo como un tazón de Sancocho.">The national soul food of the Dominican Republic. A rich, hearty stew of meats and root vegetables simmered for hours. Made for celebration, rainy days, and bringing people together. Ask any Dominican — nothing fixes everything like a bowl of Sancocho.</p>
         </div>
-        <div class="recipe-card-body">
-          <h4 data-en="Ingredients (Serves 6–8)" data-es="Ingredientes (para 6–8 personas)">Ingredients (Serves 6–8)</h4>
-          <ul>
-            <li data-en="1 lb chicken thighs, cut into pieces" data-es="450g de muslos de pollo en trozos">1 lb chicken thighs, cut into pieces</li>
-            <li data-en="1 lb beef chuck or short ribs" data-es="450g de res (aguja o costilla)">1 lb beef chuck or short ribs</li>
-            <li data-en="1 lb pork chops" data-es="450g de chuletas de cerdo">1 lb pork chops</li>
-            <li data-en="2 cups yuca (cassava), peeled and cubed" data-es="2 tazas de yuca pelada y en cubos">2 cups yuca (cassava), peeled and cubed</li>
-            <li data-en="2 green plantains, cut into chunks" data-es="2 plátanos verdes en trozos">2 green plantains, cut into chunks</li>
-            <li data-en="1 cup auyama (kabocha squash), cubed" data-es="1 taza de auyama (calabaza) en cubos">1 cup auyama (kabocha squash), cubed</li>
-            <li data-en="3 ears corn, cut into 3-inch pieces" data-es="3 mazorcas de maíz en trozos de 7cm">3 ears corn, cut into 3-inch pieces</li>
-            <li data-en="1 head garlic, crushed" data-es="1 cabeza de ajo machacada">1 head garlic, crushed</li>
-            <li data-en="1 large onion, diced" data-es="1 cebolla grande picada">1 large onion, diced</li>
-            <li data-en="Oregano, adobo, sazón — to taste" data-es="Orégano, adobo, sazón — al gusto">Oregano, adobo, sazón — to taste</li>
-            <li data-en="Sofrito: blend parsley, garlic, onion, ají peppers" data-es="Sofrito: mezcla perejil, ajo, cebolla, ajíes">Sofrito: blend parsley, garlic, onion, ají peppers</li>
-            <li data-en="Juice of 2 limes (for meat cleaning)" data-es="Jugo de 2 limones (para limpiar la carne)">Juice of 2 limes (for meat cleaning)</li>
+        <div style="padding:24px 28px">
+          <h4 style="font-family:'Syne',sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--teal-bright);margin-bottom:10px" data-en="Ingredients (Serves 6–8)" data-es="Ingredientes (para 6–8 personas)">Ingredients (Serves 6–8)</h4>
+          <ul style="list-style:none;margin-bottom:20px">
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="1 lb chicken thighs, cut into pieces" data-es="450g de muslos de pollo en trozos">1 lb chicken thighs, cut into pieces</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="1 lb beef chuck or short ribs" data-es="450g de res (aguja o costilla)">1 lb beef chuck or short ribs</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="1 lb pork chops" data-es="450g de chuletas de cerdo">1 lb pork chops</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="2 cups yuca (cassava), peeled and cubed" data-es="2 tazas de yuca pelada y en cubos">2 cups yuca (cassava), peeled and cubed</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="2 green plantains, cut into chunks" data-es="2 plátanos verdes en trozos">2 green plantains, cut into chunks</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="1 cup auyama (kabocha squash), cubed" data-es="1 taza de auyama (calabaza) en cubos">1 cup auyama (kabocha squash), cubed</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="3 ears corn, cut into 3-inch pieces" data-es="3 mazorcas de maíz en trozos de 7cm">3 ears corn, cut into 3-inch pieces</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="1 head garlic, crushed" data-es="1 cabeza de ajo machacada">1 head garlic, crushed</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="1 large onion, diced" data-es="1 cebolla grande picada">1 large onion, diced</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="Oregano, adobo, sazón — to taste" data-es="Orégano, adobo, sazón — al gusto">Oregano, adobo, sazón — to taste</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="Sofrito: blend parsley, garlic, onion, ají peppers" data-es="Sofrito: mezcla perejil, ajo, cebolla, ajíes">Sofrito: blend parsley, garlic, onion, ají peppers</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="Juice of 2 limes (for meat cleaning)" data-es="Jugo de 2 limones (para limpiar la carne)">Juice of 2 limes (for meat cleaning)</span></li>
           </ul>
-          <h4 data-en="Instructions" data-es="Instrucciones">Instructions</h4>
-          <ol>
-            <li data-en="Rinse meats with lime juice and cold water. Season generously with adobo, oregano, and sazón. Let rest 20 minutes." data-es="Enjuaga la carne con jugo de limón y agua fría. Sazona generosamente con adobo, orégano y sazón. Deja reposar 20 minutos.">Rinse meats with lime juice and cold water. Season generously with adobo, oregano, and sazón. Let rest 20 minutes.</li>
-            <li data-en="In a large caldero or Dutch oven, brown meats in batches over medium-high heat. Set aside." data-es="En un caldero grande, dora la carne en tandas a fuego medio-alto. Reserva.">In a large caldero or Dutch oven, brown meats in batches over medium-high heat. Set aside.</li>
-            <li data-en="In the same pot, sauté onion, garlic, and sofrito until fragrant, about 3 minutes." data-es="En la misma olla, sofríe cebolla, ajo y sofrito hasta que estén fragantes, unos 3 minutos.">In the same pot, sauté onion, garlic, and sofrito until fragrant, about 3 minutes.</li>
-            <li data-en="Return all meat to pot. Add 10–12 cups water or broth. Bring to a boil, then reduce to simmer." data-es="Regresa toda la carne a la olla. Agrega 10–12 tazas de agua o caldo. Lleva a ebullición, luego reduce a fuego lento.">Return all meat to pot. Add 10–12 cups water or broth. Bring to a boil, then reduce to simmer.</li>
-            <li data-en="After 40 minutes, add yuca, plantains, and auyama. Simmer 20 more minutes." data-es="Después de 40 minutos, agrega yuca, plátanos y auyama. Cocina 20 minutos más.">After 40 minutes, add yuca, plantains, and auyama. Simmer 20 more minutes.</li>
-            <li data-en="Add corn. Taste and adjust salt. Simmer until vegetables are tender and broth is rich." data-es="Agrega el maíz. Prueba y ajusta la sal. Cocina hasta que los vegetales estén tiernos y el caldo sea rico.">Add corn. Taste and adjust salt. Simmer until vegetables are tender and broth is rich.</li>
-            <li data-en="Serve with white rice, sliced avocado, and hot sauce. Enjoy with someone you love." data-es="Sirve con arroz blanco, aguacate en rodajas y salsa picante. Disfruta con alguien que amas.">Serve with white rice, sliced avocado, and hot sauce. Enjoy with someone you love.</li>
+          <h4 style="font-family:'Syne',sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--teal-bright);margin-bottom:10px" data-en="Instructions" data-es="Instrucciones">Instructions</h4>
+          <ol style="list-style:none;counter-reset:step">
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="content:counter(step);position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">1</span><span data-en="Rinse meats with lime juice and cold water. Season generously with adobo, oregano, and sazón. Let rest 20 minutes." data-es="Enjuaga la carne con jugo de limón y agua fría. Sazona generosamente con adobo, orégano y sazón. Deja reposar 20 minutos.">Rinse meats with lime juice and cold water. Season generously with adobo, oregano, and sazón. Let rest 20 minutes.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">2</span><span data-en="In a large caldero or Dutch oven, brown meats in batches over medium-high heat. Set aside." data-es="En un caldero grande, dora la carne en tandas a fuego medio-alto. Reserva.">In a large caldero or Dutch oven, brown meats in batches over medium-high heat. Set aside.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">3</span><span data-en="In the same pot, sauté onion, garlic, and sofrito until fragrant, about 3 minutes." data-es="En la misma olla, sofríe cebolla, ajo y sofrito hasta que estén fragantes, unos 3 minutos.">In the same pot, sauté onion, garlic, and sofrito until fragrant, about 3 minutes.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">4</span><span data-en="Return all meat to pot. Add 10–12 cups water or broth. Bring to a boil, then reduce to simmer." data-es="Regresa toda la carne a la olla. Agrega 10–12 tazas de agua o caldo. Lleva a ebullición, luego reduce a fuego lento.">Return all meat to pot. Add 10–12 cups water or broth. Bring to a boil, then reduce to simmer.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">5</span><span data-en="After 40 minutes, add yuca, plantains, and auyama. Simmer 20 more minutes." data-es="Después de 40 minutos, agrega yuca, plátanos y auyama. Cocina 20 minutos más.">After 40 minutes, add yuca, plantains, and auyama. Simmer 20 more minutes.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">6</span><span data-en="Add corn. Taste and adjust salt. Simmer until vegetables are tender and broth is rich." data-es="Agrega el maíz. Prueba y ajusta la sal. Cocina hasta que los vegetales estén tiernos y el caldo sea rico.">Add corn. Taste and adjust salt. Simmer until vegetables are tender and broth is rich.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">7</span><span data-en="Serve with white rice, sliced avocado, and hot sauce. Enjoy with someone you love." data-es="Sirve con arroz blanco, aguacate en rodajas y salsa picante. Disfruta con alguien que amas.">Serve with white rice, sliced avocado, and hot sauce. Enjoy with someone you love.</span></li>
           </ol>
         </div>
       </div>
 
       <!-- TOSTONES -->
-      <div class="recipe-card fade-up">
-        <div class="recipe-card-header">
-          <h3 data-en="🍌 Tostones (Fried Green Plantains)" data-es="🍌 Tostones (Plátanos Verdes Fritos)">🍌 Tostones (Fried Green Plantains)</h3>
-          <p data-en="The unofficial snack of the Dominican Republic. Crispy, salty, golden fried green plantains that go with absolutely everything. Mastered in every Dominican kitchen. You will make these for the rest of your life after trying them once." data-es="El snack no oficial de la República Dominicana. Plátanos verdes fritos crujientes, salados y dorados que combinan absolutamente con todo. Dominados en cada cocina dominicana. Los harás por el resto de tu vida después de probarlos una vez.">The unofficial snack of the Dominican Republic. Crispy, salty, golden fried green plantains that go with absolutely everything. Mastered in every Dominican kitchen. You will make these for the rest of your life after trying them once.</p>
+      <div style="background:#fff;border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden" class="fade-up">
+        <div style="padding:28px 28px 20px;border-bottom:2px solid var(--aqua-light)">
+          <h3 style="font-family:'Lora',serif;font-size:1.4rem;color:var(--teal);margin-bottom:6px" data-en="🍌 Tostones (Fried Green Plantains)" data-es="🍌 Tostones (Plátanos Verdes Fritos)">🍌 Tostones (Fried Green Plantains)</h3>
+          <p style="font-size:.9rem;color:var(--text-soft);line-height:1.6" data-en="The unofficial snack of the Dominican Republic. Crispy, salty, golden fried green plantains that go with absolutely everything. Mastered in every Dominican kitchen. You will make these for the rest of your life after trying them once." data-es="El snack no oficial de la República Dominicana. Plátanos verdes fritos crujientes, salados y dorados que combinan absolutamente con todo. Dominados en cada cocina dominicana. Los harás por el resto de tu vida después de probarlos una vez.">The unofficial snack of the Dominican Republic. Crispy, salty, golden fried green plantains that go with absolutely everything. Mastered in every Dominican kitchen. You will make these for the rest of your life after trying them once.</p>
         </div>
-        <div class="recipe-card-body">
-          <h4 data-en="Ingredients (Serves 4)" data-es="Ingredientes (para 4 personas)">Ingredients (Serves 4)</h4>
-          <ul>
-            <li data-en="3 large green plantains (unripe — they must be green)" data-es="3 plátanos verdes grandes (sin madurar — deben ser verdes)">3 large green plantains (unripe — they must be green)</li>
-            <li data-en="Vegetable oil for frying (enough to fill pan 1–2 inches)" data-es="Aceite vegetal para freír (suficiente para llenar la sartén 3–5 cm)">Vegetable oil for frying (enough to fill pan 1–2 inches)</li>
-            <li data-en="Sea salt — generously applied while hot" data-es="Sal de mar — aplicada generosamente en caliente">Sea salt — generously applied while hot</li>
-            <li data-en="3 garlic cloves, minced (optional but recommended)" data-es="3 dientes de ajo picados (opcional pero recomendado)">3 garlic cloves, minced (optional but recommended)</li>
-            <li data-en="Cold water with 1 tsp salt (for soaking between fries)" data-es="Agua fría con 1 cdta de sal (para remojar entre las frituras)">Cold water with 1 tsp salt (for soaking between fries)</li>
+        <div style="padding:24px 28px">
+          <h4 style="font-family:'Syne',sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--teal-bright);margin-bottom:10px" data-en="Ingredients (Serves 4)" data-es="Ingredientes (para 4 personas)">Ingredients (Serves 4)</h4>
+          <ul style="list-style:none;margin-bottom:20px">
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="3 large green plantains (unripe — they must be green)" data-es="3 plátanos verdes grandes (sin madurar — deben ser verdes)">3 large green plantains (unripe — they must be green)</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="Vegetable oil for frying (enough to fill pan 1–2 inches)" data-es="Aceite vegetal para freír (suficiente para llenar la sartén 3–5 cm)">Vegetable oil for frying (enough to fill pan 1–2 inches)</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="Sea salt — generously applied while hot" data-es="Sal de mar — aplicada generosamente en caliente">Sea salt — generously applied while hot</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;border-bottom:1px solid rgba(0,95,115,.06);display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="3 garlic cloves, minced (optional but recommended)" data-es="3 dientes de ajo picados (opcional pero recomendado)">3 garlic cloves, minced (optional but recommended)</span></li>
+            <li style="font-size:.9rem;color:var(--text);padding:5px 0;display:flex;align-items:flex-start;gap:8px"><span style="color:var(--teal-bright);flex-shrink:0;margin-top:1px">•</span><span data-en="Cold water with 1 tsp salt (for soaking between fries)" data-es="Agua fría con 1 cdta de sal (para remojar entre las frituras)">Cold water with 1 tsp salt (for soaking between fries)</span></li>
           </ul>
-          <h4 data-en="Instructions" data-es="Instrucciones">Instructions</h4>
-          <ol>
-            <li data-en="Peel plantains — score lengthwise and remove the thick green skin. Cut into 1-inch rounds." data-es="Pela los plátanos — haz cortes longitudinales y retira la piel gruesa verde. Corta en rodajas de 2.5 cm.">Peel plantains — score lengthwise and remove the thick green skin. Cut into 1-inch rounds.</li>
-            <li data-en="Heat oil to 325°F (160°C). Fry plantain rounds for 3–4 minutes until light golden. Do NOT fully cook yet." data-es="Calienta el aceite a 160°C. Fríe las rodajas de plátano 3–4 minutos hasta que estén levemente doradas. NO termines de cocinar aún.">Heat oil to 325°F (160°C). Fry plantain rounds for 3–4 minutes until light golden. Do NOT fully cook yet.</li>
-            <li data-en="Remove and drain. Place each piece between two sheets of parchment and flatten firmly with the bottom of a glass or a tostonera." data-es="Retira y escurre. Coloca cada pieza entre dos papeles pergamino y aplana firmemente con la base de un vaso o una tostonera.">Remove and drain. Place each piece between two sheets of parchment and flatten firmly with the bottom of a glass or a tostonera.</li>
-            <li data-en="Soak flattened pieces in salted cold water for 30 seconds. This is the secret to maximum crispiness." data-es="Remoja las piezas aplanadas en agua fría con sal por 30 segundos. Este es el secreto para la máxima crujencia.">Soak flattened pieces in salted cold water for 30 seconds. This is the secret to maximum crispiness.</li>
-            <li data-en="Increase oil to 375°F (190°C). Pat plantains dry and fry again for 2–3 minutes until deeply golden and crispy." data-es="Sube el aceite a 190°C. Seca los plátanos y fríe nuevamente 2–3 minutos hasta que estén dorados y crujientes.">Increase oil to 375°F (190°C). Pat plantains dry and fry again for 2–3 minutes until deeply golden and crispy.</li>
-            <li data-en="Drain immediately and salt generously while still hot. Add minced garlic if using." data-es="Escurre inmediatamente y sazona generosamente mientras aún estén calientes. Agrega ajo picado si lo usas.">Drain immediately and salt generously while still hot. Add minced garlic if using.</li>
-            <li data-en="Serve immediately with Sancocho, fresh fish, or just your hands. They don't last long — that's the point." data-es="Sirve inmediatamente con Sancocho, pescado fresco o simplemente con las manos. No duran mucho — ese es el objetivo.">Serve immediately with Sancocho, fresh fish, or just your hands. They don't last long — that's the point.</li>
+          <h4 style="font-family:'Syne',sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--teal-bright);margin-bottom:10px" data-en="Instructions" data-es="Instrucciones">Instructions</h4>
+          <ol style="list-style:none;counter-reset:step">
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">1</span><span data-en="Peel plantains — score lengthwise and remove the thick green skin. Cut into 1-inch rounds." data-es="Pela los plátanos — haz cortes longitudinales y retira la piel gruesa verde. Corta en rodajas de 2.5 cm.">Peel plantains — score lengthwise and remove the thick green skin. Cut into 1-inch rounds.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">2</span><span data-en="Heat oil to 325°F (160°C). Fry plantain rounds for 3–4 minutes until light golden. Do NOT fully cook yet." data-es="Calienta el aceite a 160°C. Fríe las rodajas de plátano 3–4 minutos hasta que estén levemente doradas. NO termines de cocinar aún.">Heat oil to 325°F (160°C). Fry plantain rounds for 3–4 minutes until light golden. Do NOT fully cook yet.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">3</span><span data-en="Remove and drain. Place each piece between two sheets of parchment and flatten firmly with the bottom of a glass or a tostonera." data-es="Retira y escurre. Coloca cada pieza entre dos papeles pergamino y aplana firmemente con la base de un vaso o una tostonera.">Remove and drain. Place each piece between two sheets of parchment and flatten firmly with the bottom of a glass or a tostonera.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">4</span><span data-en="Soak flattened pieces in salted cold water for 30 seconds. This is the secret to maximum crispiness." data-es="Remoja las piezas aplanadas en agua fría con sal por 30 segundos. Este es el secreto para la máxima crujencia.">Soak flattened pieces in salted cold water for 30 seconds. This is the secret to maximum crispiness.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">5</span><span data-en="Increase oil to 375°F (190°C). Pat plantains dry and fry again for 2–3 minutes until deeply golden and crispy." data-es="Sube el aceite a 190°C. Seca los plátanos y fríe nuevamente 2–3 minutos hasta que estén dorados y crujientes.">Increase oil to 375°F (190°C). Pat plantains dry and fry again for 2–3 minutes until deeply golden and crispy.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;border-bottom:1px solid rgba(0,95,115,.06);position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">6</span><span data-en="Drain immediately and salt generously while still hot. Add minced garlic if using." data-es="Escurre inmediatamente y sazona generosamente mientras aún estén calientes. Agrega ajo picado si lo usas.">Drain immediately and salt generously while still hot. Add minced garlic if using.</span></li>
+            <li style="counter-increment:step;font-size:.9rem;color:var(--text);padding:8px 0 8px 36px;position:relative;line-height:1.5"><span style="position:absolute;left:0;top:8px;width:24px;height:24px;background:var(--teal-bright);color:#fff;border-radius:50%;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif">7</span><span data-en="Serve immediately with Sancocho, fresh fish, or just your hands. They don't last long — that's the point." data-es="Sirve inmediatamente con Sancocho, pescado fresco o simplemente con las manos. No duran mucho — ese es el objetivo.">Serve immediately with Sancocho, fresh fish, or just your hands. They don't last long — that's the point.</span></li>
           </ol>
         </div>
       </div>
@@ -1150,44 +1148,30 @@ html,body{max-width:100%;overflow-x:hidden}
     <!-- ANIMATED ROCKET SVG -->
     <div class="rocket-svg-col">
       <div class="rocket-scene">
-        <!-- Orbit rings -->
         <div class="orbit-ring orbit-ring-1">
           <div class="orbit-dot"></div>
         </div>
         <div class="orbit-ring orbit-ring-2">
           <div class="orbit-dot orbit-dot-2" style="top:auto;bottom:-4px;left:50%;transform:translateX(-50%)"></div>
         </div>
-        <!-- Launch pad -->
         <div class="launch-pad"></div>
-        <!-- Ground glow -->
         <div class="ground-glow"></div>
-        <!-- Rocket SVG -->
         <svg class="rocket-svg" width="70" height="160" viewBox="0 0 70 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <!-- Rocket body -->
           <ellipse cx="35" cy="95" rx="18" ry="45" fill="url(#bodyGrad)"/>
-          <!-- Rocket nose cone -->
           <path d="M35 10 C35 10 17 45 17 60 L53 60 C53 45 35 10 35 10Z" fill="url(#noseGrad)"/>
-          <!-- Window -->
           <circle cx="35" cy="75" r="9" fill="#001a2e" stroke="rgba(0,212,255,0.5)" stroke-width="1.5"/>
           <circle cx="35" cy="75" r="6" class="window-glow" fill="#00d4ff"/>
           <circle cx="32" cy="72" r="2" fill="rgba(255,255,255,0.6)"/>
-          <!-- Left fin -->
           <path d="M17 120 L5 145 L17 140 Z" fill="url(#finGrad)"/>
-          <!-- Right fin -->
           <path d="M53 120 L65 145 L53 140 Z" fill="url(#finGrad)"/>
-          <!-- Bottom detail -->
           <rect x="25" y="135" width="20" height="8" rx="2" fill="rgba(0,180,216,0.4)"/>
-          <!-- Side stripe left -->
           <rect x="17" y="65" width="3" height="50" rx="1.5" fill="rgba(0,180,216,0.35)"/>
-          <!-- Side stripe right -->
           <rect x="50" y="65" width="3" height="50" rx="1.5" fill="rgba(0,180,216,0.35)"/>
-          <!-- Flame -->
           <g class="rocket-flame">
             <path d="M25 143 C25 143 20 155 35 162 C50 155 45 143 45 143 C45 143 38 150 35 152 C32 150 25 143 25 143Z" fill="url(#flameGrad1)" opacity="0.9"/>
             <path d="M29 143 C29 143 24 158 35 165 C46 158 41 143 41 143 C41 143 37 153 35 155 C33 153 29 143 29 143Z" fill="url(#flameGrad2)" opacity="0.7"/>
             <path d="M32 143 C32 143 29 160 35 166 C41 160 38 143 38 143 C38 143 36 155 35 157 C34 155 32 143 32 143Z" fill="#fff" opacity="0.5"/>
           </g>
-          <!-- Gradients -->
           <defs>
             <linearGradient id="bodyGrad" x1="17" y1="50" x2="53" y2="140" gradientUnits="userSpaceOnUse">
               <stop offset="0%" stop-color="#e8f4f8"/>
@@ -1352,11 +1336,11 @@ html,body{max-width:100%;overflow-x:hidden}
   </div>
 </section>
 
-<!-- FOOTER — FIXED -->
+<!-- FOOTER — FIX #3: No logo, clean branded text instead -->
 <footer>
   <div class="footer-grid container">
     <div class="footer-brand">
-      <img class="footer-brand-logo" src="images/cabarete-restaurants-logo.png" alt="Cabarete Restaurants" width="220" height="50"/>
+      <div class="footer-brand-name">Cabarete<em>Restaurants</em>.com</div>
       <p data-en="The definitive guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list. Authentic food, honest reviews, and real local knowledge from the North Coast." data-es="La guía definitiva de los mejores restaurantes en Cabarete, República Dominicana. Solo los mejores están en esta lista. Comida auténtica, reseñas honestas y conocimiento local real de la Costa Norte.">The definitive guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list. Authentic food, honest reviews, and real local knowledge from the North Coast.</p>
       <div class="footer-brand-email-row">
         <a href="mailto:sales@eyetoad.com">📧 sales@eyetoad.com</a>
@@ -1432,7 +1416,7 @@ html,body{max-width:100%;overflow-x:hidden}
       "description": "The definitive guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list.",
       "inLanguage": ["en", "es"],
       "datePublished": "2026-01-01",
-      "dateModified": "2026-05-01",
+      "dateModified": "2026-05-23",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://www.cabareterestaurants.com/?s={search_term_string}",
@@ -1470,7 +1454,7 @@ html,body{max-width:100%;overflow-x:hidden}
       },
       "inLanguage": ["en", "es"],
       "datePublished": "2026-01-01",
-      "dateModified": "2026-05-01"
+      "dateModified": "2026-05-23"
     },
     {
       "@type": "FoodEstablishment",
