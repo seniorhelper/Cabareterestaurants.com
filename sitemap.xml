@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.cabareterestaurants.com/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.cabareterestaurants.com/sitemap.html</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<url><loc>https://cabareterestaurants.com/</loc><lastmod>2026-10-11</lastmod><priority>1.0</priority></url>
+<url><loc>https://cabareterestaurants.com/restaurants/</loc><lastmod>2026-10-11</lastmod><priority>0.9</priority></url>
+<url><loc>https://cabareterestaurants.com/cabarete-bay/</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://cabareterestaurants.com/kite-beach/</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://cabareterestaurants.com/breakfast-coffee/</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://cabareterestaurants.com/sosua/</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://cabareterestaurants.com/night-out/</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://cabareterestaurants.com/dominican-food/</loc><lastmod>2026-10-11</lastmod><priority>0.7</priority></url>
+<url><loc>https://cabareterestaurants.com/dominican-recipes/</loc><lastmod>2026-10-11</lastmod><priority>0.6</priority></url>
+<url><loc>https://cabareterestaurants.com/gorditos-fresh-mex/</loc><lastmod>2026-10-11</lastmod><priority>0.6</priority></url>
+<url><loc>https://cabareterestaurants.com/food-bucket-list/</loc><lastmod>2026-10-11</lastmod><priority>0.8</priority></url>
+<url><loc>https://cabareterestaurants.com/tipping-money/</loc><lastmod>2026-10-11</lastmod><priority>0.6</priority></url>
+<url><loc>https://cabareterestaurants.com/about/</loc><lastmod>2026-10-11</lastmod><priority>0.4</priority></url>
+<url><loc>https://cabareterestaurants.com/contact/</loc><lastmod>2026-10-11</lastmod><priority>0.4</priority></url>
+<url><loc>https://cabareterestaurants.com/privacy/</loc><lastmod>2026-10-11</lastmod><priority>0.3</priority></url>
+<url><loc>https://cabareterestaurants.com/terms/</loc><lastmod>2026-10-11</lastmod><priority>0.3</priority></url>
+<url><loc>https://cabareterestaurants.com/editorial-policy/</loc><lastmod>2026-10-11</lastmod><priority>0.4</priority></url>
 </urlset>

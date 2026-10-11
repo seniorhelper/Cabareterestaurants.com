@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cabarete Bill &amp; Tip Calculator (Tax + Service)</title>
+<meta name="description" content="Work out a Cabarete restaurant bill with 18% ITBIS and the 10% legal tip, add a cash tip, split it and convert pesos to dollars at your rate.">
+<link rel="canonical" href="https://cabareterestaurants.com/tipping-money/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Zach Wennstedt">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cabarete Restaurants">
+<meta property="og:title" content="Cabarete Bill &amp; Tip Calculator (Tax + Service)">
+<meta property="og:description" content="Work out a Cabarete restaurant bill with 18% ITBIS and the 10% legal tip, add a cash tip, split it and convert pesos to dollars at your rate.">
+<meta property="og:url" content="https://cabareterestaurants.com/tipping-money/">
+<meta property="og:image" content="https://cabareterestaurants.com/images/og-cabarete-restaurants.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cabarete Bill &amp; Tip Calculator (Tax + Service)">
+<meta name="twitter:description" content="Work out a Cabarete restaurant bill with 18% ITBIS and the 10% legal tip, add a cash tip, split it and convert pesos to dollars at your rate.">
+<meta name="twitter:image" content="https://cabareterestaurants.com/images/og-cabarete-restaurants.jpg">
+<meta name="theme-color" content="#005f73">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/cabarete-restaurants-favicon-32.png">
+<link rel="apple-touch-icon" href="/images/cabarete-restaurants-favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="/assets/site.css?v=2">
+
+<meta name="google-adsense-account" content="ca-pub-3561679124556057">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3561679124556057" crossorigin="anonymous"></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://cabareterestaurants.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Bill & tip calculator",
+     "item": "https://cabareterestaurants.com/tipping-money/"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What are the extra charges on a Cabarete restaurant bill?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Usually two: an 18% ITBIS tax and a 10% legal service charge for staff, required by the Labor Code for dine-in service."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How much extra should I tip in Cabarete?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nothing is required. A cash tip of about 5–10% handed to your server is a common thank-you for good service."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+</head>
+<body class="cab">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap head-in">
+<a class="brand" href="/" aria-label="Cabarete Restaurants home"><picture><source type="image/webp" srcset="/images/cabarete-restaurants-logo-header.webp"><img src="/images/cabarete-restaurants-logo-header.png" width="338" height="112" alt="Cabarete Restaurants"></picture></a>
+<button class="nav-btn" type="button" aria-expanded="false" aria-controls="site-nav"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button>
+<nav id="site-nav" class="site-nav" aria-label="Main"><a href="/restaurants/">Restaurants</a><a href="/kite-beach/">Kite Beach</a><a href="/breakfast-coffee/">Breakfast</a><a href="/sosua/">Sosúa</a><a href="/food-bucket-list/">Food Planner</a><a href="/dominican-food/">DR Food</a></nav>
+</div></header>
+<nav class="crumbs wrap" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">/</span><span aria-current="page">Bill &amp; tip calculator</span></nav>
+<main id="main">
+<section class="page-hero"><div class="wrap narrow"><p class="kicker">Money tool</p><h1>Cabarete bill, tip and currency calculator</h1>
+<p class="lede">See what a dinner in Cabarete really costs once tax and service are added, choose a cash tip and split it between friends.</p></div></section>
+<section class="sec"><div class="wrap narrow"><div class="tool" data-tipcalc="dr">
+<div class="row"><label class="f">Food and drinks from the menu (RD$)<input name="sub" type="number" inputmode="decimal" min="0" step="1" value="3500"></label><label class="f">Splitting between<input name="people" type="number" min="1" step="1" value="3"></label></div>
+<p><label><input type="checkbox" name="addtax" checked> Menu prices exclude tax and service (add 18% + 10%)</label></p>
+<div class="row"><label class="f">Cash tip for your server<select name="extra"><option value="0">No extra</option><option value="5" selected>5%</option><option value="10">10%</option></select></label>
+<label class="f">Pesos per US dollar today (optional)<input name="rate" type="number" inputmode="decimal" min="0" step="0.01" placeholder="From your bank app"></label></div>
+<div data-tip-out aria-live="polite"></div><p class="note">No live rates are fetched. Enter the rate your bank or card shows.</p></div></div></section>
+<section class="sec alt"><div class="wrap narrow prose"><h2>Reading a bill in Cabarete</h2>
+<p>Beach towns can be confusing because pricing styles differ. Many sit-down restaurants list menu prices before charges, then add the 18% ITBIS sales tax and the 10% propina legal at the bottom: around 28% on top. Others, including some casual taco and beach spots, print prices with everything included. If the menu says "impuestos incluidos" or similar, untick the box above.</p>
+<h2>Example: dinner for three</h2>
+<p>Three friends spend RD$3,500 on food and drinks. Add the 10% service (RD$350) and 18% ITBIS (RD$630) and the bill reads RD$4,480. A 5% cash tip of RD$175 brings the total to RD$4,655, or about RD$1,552 each. Enter today’s exchange rate above to see it in US dollars.</p>
+<h2>The 10% and the extra tip</h2>
+<p>The 10% service charge is set by Article 228 of the Dominican Labor Code and is meant to be shared among staff. Because it is pooled, regulars often leave a little cash directly for their server. Reports say a court ruling restricts the 10% to dine-in orders, so takeout bills may not include it.</p>
+<h2>Cash, cards and dollars</h2>
+<ul><li>Bring pesos for beach bars, taco counters, motoconchos and tips.</li><li>Cards work at many sit-down restaurants; ask first at small places.</li><li>US dollars are sometimes accepted, but the house exchange rate is usually worse than an ATM.</li></ul></div></section>
+<section class="sec" id="faq"><div class="wrap narrow"><h2>Questions about tipping</h2><div class="faq"><details><summary>What are the extra charges on a Cabarete restaurant bill?</summary><div class="ans"><p>Usually two: an 18% ITBIS tax and a 10% legal service charge for staff, required by the Labor Code for dine-in service.</p></div></details><details><summary>How much extra should I tip in Cabarete?</summary><div class="ans"><p>Nothing is required. A cash tip of about 5–10% handed to your server is a common thank-you for good service.</p></div></details></div></div></section>
+<section class="sec sources"><div class="wrap narrow"><h2>Sources</h2><p class="muted">Checked 2026-10. Listing details change; confirm hours and prices with each business.</p><ul><li><a href="https://eldinero.com.do/40645/el-articulo-228-del-codigo-de-trabajo/" rel="nofollow noopener" target="_blank">El Dinero: Artículo 228 del Código de Trabajo</a></li><li><a href="https://www.diariolibre.com/economia/en-un-ano-dominicanos-pagamos-15-mil-millones-de-pesos-en-propinas-EI13934303" rel="nofollow noopener" target="_blank">Diario Libre: propinas</a></li><li><a href="https://www.drlistings.com/blog/tipping-etiquette-dominican-republic/" rel="nofollow noopener" target="_blank">DR Listings: tipping etiquette</a></li></ul></div></section>
+</main>
+<footer class="site-foot"><div class="wrap">
+<div class="foot-grid"><div class="foot-brand"><p class="foot-wm">Cabarete<span class="b">Restaurants</span>.com</p><p>Where to eat in Cabarete and Sosúa, with sources on every listing and no made-up ratings.</p></div><div><h2 class="fh">Eat</h2><a href="/restaurants/">All restaurants</a><a href="/cabarete-bay/">Cabarete Bay strip</a><a href="/kite-beach/">Kite Beach</a><a href="/breakfast-coffee/">Breakfast &amp; coffee</a><a href="/sosua/">Sosúa</a><a href="/night-out/">Night out</a></div><div><h2 class="fh">Plan</h2><a href="/food-bucket-list/">Food planner &amp; bucket list</a><a href="/tipping-money/">Bill &amp; tip calculator</a><a href="/dominican-food/">Dominican food basics</a><a href="/dominican-recipes/">Recipes</a><a href="/gorditos-fresh-mex/">Gordito&#x27;s menu (sponsored)</a></div><div><h2 class="fh">Site</h2><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/editorial-policy/">Editorial policy</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div></div>
+<div class="foot-bottom"><p>&copy; 2026 Cabarete Restaurants. Independent guide; listings are not endorsements unless marked Sponsored.</p>
+<p>Site by <a href="https://eyetoad.com/" rel="nofollow">Eye To Ad Media</a></p></div>
+</div></footer>
+<script src="/assets/site.js?v=2" defer></script>
+</body>
+</html>

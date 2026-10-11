@@ -1,0 +1,1031 @@
+{
+ "site": "https://cabareterestaurants.com",
+ "generated": "2026-10-11",
+ "license": "Facts compiled by Cabarete Restaurants; cite the site when reusing. Descriptions are our own words.",
+ "notes": "price and hours are null unless sourced from the business itself; lat/lng null where no verified coordinate exists; tags are editor's tags derived from the cited sources.",
+ "restaurants": [
+  {
+   "slug": "gorditos-fresh-mex",
+   "name": "Gordito's Fresh Mex",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Plaza Ocean Dream, Cabarete",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": "https://gorditosfreshmex.com",
+   "cuisines": [
+    "Mexican",
+    "Fresh Mex"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "mexican",
+     "casual-eats"
+    ],
+    "moods": [
+     "casual"
+    ]
+   },
+   "meals": [
+    "lunch",
+    "dinner"
+   ],
+   "labels": [
+    "Cash only (per its menu)",
+    "Taco Tuesday"
+   ],
+   "summary_text": "Tacos, burritos and bowls made from scratch, including the Mambo fish taco. Its own menu says cash only and lists Taco Tuesday. Plaza Ocean Dream can be tricky to find, so use a map. Menu and details.",
+   "sponsored": true,
+   "sources": [
+    [
+     "Gordito’s Fresh Mex (official site)",
+     "https://gorditosfreshmex.com"
+    ],
+    [
+     "Tripadvisor: restaurants near Kite Beach",
+     "https://www.tripadvisor.com/RestaurantsNear-g317144-d149679-Kite_Beach-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "la-casita-de-papi",
+   "name": "La Casita de Papi",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "On the beach in Cabarete town",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Seafood",
+    "Dominican"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "seafood",
+     "dominican"
+    ],
+    "moods": [
+     "view",
+     "romantic"
+    ]
+   },
+   "meals": [
+    "dinner"
+   ],
+   "labels": [
+    "On the sand",
+    "Paella",
+    "Cash or Mastercard (per guides)"
+   ],
+   "summary_text": "The beach seafood restaurant most travelers have heard of. Guides single out the seafood paella and the shrimp a la Papi in a creamy curry sauce; one notes it takes only cash or Mastercard. Arrive before sunset for a table near the water.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Tripadvisor listing",
+     "https://www.tripadvisor.com/RestaurantsNear-g317144-d1652063-La_Casita_De_Papi-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Wandering & Tasting: best restaurants in Cabarete",
+     "https://wanderingandtasting.com/the-9-best-restaurants-in-cabarete/"
+    ],
+    [
+     "Simply Dominican: top restaurants in Cabarete",
+     "https://simplydominican.com/best-restaurants-cabaret/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "bliss",
+   "name": "Bliss Restaurant",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Cabarete",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Mediterranean",
+    "Italian",
+    "Seafood"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "fine",
+     "italian",
+     "seafood"
+    ],
+    "moods": [
+     "romantic"
+    ]
+   },
+   "meals": [
+    "dinner"
+   ],
+   "labels": [
+    "Dinner",
+    "Special occasion"
+   ],
+   "summary_text": "Fodor’s lists Bliss among the North Coast’s best restaurants for a Mediterranean dinner; review sites describe Italian and seafood cooking at the top price tier. The choice for a celebration.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Fodor’s: North Coast restaurants",
+     "https://www.fodors.com/world/caribbean/dominican-republic/north-coast/restaurants"
+    ],
+    [
+     "Tripadvisor: restaurants in Cabarete",
+     "https://www.tripadvisor.com/Restaurants-g317144-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Restaurant Guru: Cabarete",
+     "https://restaurantguru.com/Cabarete"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "cabarete-coffee-company",
+   "name": "Cabarete Coffee Company",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Cabarete main road",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": "https://mariposadrfoundation.org/",
+   "cuisines": [
+    "Café",
+    "Deli"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "cafe"
+    ],
+    "moods": [
+     "casual"
+    ]
+   },
+   "meals": [
+    "breakfast",
+    "lunch"
+   ],
+   "labels": [
+    "Social business",
+    "Breakfast & lunch"
+   ],
+   "summary_text": "A café and deli run as a social business of the Mariposa DR Foundation, a Cabarete non-profit that educates and empowers girls. Profits support the foundation’s programs, and graduates of its center train here. Coffee, smoothies and sandwiches.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Mariposa DR Foundation",
+     "https://mariposadrfoundation.org/"
+    ],
+    [
+     "Tripadvisor listing",
+     "https://www.tripadvisor.com/Restaurant_Review-g317144-d1791795-Reviews-Cabarete_Coffee_Company-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Alex in Wanderland: where to eat in Cabarete",
+     "https://www.alexinwanderland.com/where-to-eat-in-cabarete/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "vagamundo",
+   "name": "Vagamundo Coffee & Waffles",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Cabarete (has moved once; check the current address)",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Café",
+    "Waffles"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "cafe"
+    ],
+    "moods": [
+     "casual"
+    ]
+   },
+   "meals": [
+    "breakfast",
+    "lunch"
+   ],
+   "labels": [
+    "Sweet & savory waffles",
+    "Indoor & outdoor seating"
+   ],
+   "summary_text": "Sweet and savory waffles, smoothie bowls and coffee with indoor and outdoor seating. A favorite with remote workers; it has moved location before, so check the map before you go.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Alex in Wanderland: where to eat in Cabarete",
+     "https://www.alexinwanderland.com/where-to-eat-in-cabarete/"
+    ],
+    [
+     "KiteDR: restaurants worth knowing",
+     "https://kitedr.com/the-best-restaurant-in-cabarete/"
+    ],
+    [
+     "Tripadvisor: restaurants near Kite Beach",
+     "https://www.tripadvisor.com/RestaurantsNear-g317144-d149679-Kite_Beach-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "le-bistro",
+   "name": "Restaurant Le Bistro",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Cabarete",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "French"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "fine",
+     "international"
+    ],
+    "moods": [
+     "romantic"
+    ]
+   },
+   "meals": [
+    "dinner"
+   ],
+   "labels": [
+    "Classic French",
+    "Duck (per reviewers)"
+   ],
+   "summary_text": "Classic French cooking in a beach town. Reviewers single out the duck, and the room is small and personal.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Tripadvisor: restaurants in Cabarete",
+     "https://www.tripadvisor.com/Restaurants-g317144-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Wandering & Tasting: best restaurants in Cabarete",
+     "https://wanderingandtasting.com/the-9-best-restaurants-in-cabarete/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "pomodoro",
+   "name": "Pomodoro Pizzeria",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "On the beach in Cabarete town",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Italian",
+    "Pizza"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "italian",
+     "casual-eats"
+    ],
+    "moods": [
+     "casual",
+     "lively"
+    ]
+   },
+   "meals": [],
+   "labels": [
+    "Beachfront",
+    "Homemade gelato"
+   ],
+   "summary_text": "Italian on the beach: pizza, pasta and homemade gelato, according to guides. Relaxed and busy on weekend nights.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Tripadvisor: restaurants in Cabarete",
+     "https://www.tripadvisor.com/Restaurants-g317144-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Simply Dominican: top restaurants in Cabarete",
+     "https://simplydominican.com/best-restaurants-cabaret/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "mojito-bar",
+   "name": "Mojito Bar",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "On the beach in Cabarete town",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Caribbean",
+    "Bar"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "bar",
+     "dominican",
+     "casual-eats"
+    ],
+    "moods": [
+     "casual",
+     "view",
+     "lively"
+    ]
+   },
+   "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "labels": [
+    "No reservations",
+    "Cocktails"
+   ],
+   "summary_text": "A casual beachfront bar with cocktails and Dominican plates, no reservations. One of the most-reviewed places on the bay.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Tripadvisor: restaurants in Cabarete",
+     "https://www.tripadvisor.com/Restaurants-g317144-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Wandering & Tasting: best restaurants in Cabarete",
+     "https://wanderingandtasting.com/the-9-best-restaurants-in-cabarete/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "tuva",
+   "name": "Tuvà",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Cabarete",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Vegetarian",
+    "Plant-based"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "vegetarian",
+     "fine"
+    ],
+    "diet": [
+     "vegetarian"
+    ]
+   },
+   "meals": [],
+   "labels": [
+    "Plant-based",
+    "Upscale"
+   ],
+   "summary_text": "Fodor’s recommends Tuvà as Cabarete’s vegetarian and plant-based restaurant; review sites place it at the upper end of the price range.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Fodor’s: North Coast restaurants",
+     "https://www.fodors.com/world/caribbean/dominican-republic/north-coast/restaurants"
+    ],
+    [
+     "Tripadvisor: restaurants near Kite Beach",
+     "https://www.tripadvisor.com/RestaurantsNear-g317144-d149679-Kite_Beach-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Restaurant Guru: Cabarete",
+     "https://restaurantguru.com/Cabarete"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "fresh-fresh",
+   "name": "Fresh Fresh Café",
+   "status": "open",
+   "area": "town",
+   "area_label": "Cabarete town & bay",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Cabarete",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Healthy café"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "cafe",
+     "vegetarian"
+    ],
+    "moods": [
+     "casual"
+    ]
+   },
+   "meals": [
+    "breakfast",
+    "lunch"
+   ],
+   "labels": [
+    "Healthy food"
+   ],
+   "summary_text": "The go-to for healthy breakfasts, bowls and juices, recommended by both a long-running travel blog and a local kite school’s guide.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Alex in Wanderland: where to eat in Cabarete",
+     "https://www.alexinwanderland.com/where-to-eat-in-cabarete/"
+    ],
+    [
+     "KiteDR: restaurants worth knowing",
+     "https://kitedr.com/the-best-restaurant-in-cabarete/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "la-mesa-taina",
+   "name": "La Mesa Taína",
+   "status": "open",
+   "area": "kite-beach",
+   "area_label": "Kite Beach",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "On Kite Beach (Kite Beach Hotel area)",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "International",
+    "Sushi",
+    "Tapas"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "international",
+     "seafood",
+     "sushi"
+    ],
+    "moods": [
+     "view",
+     "casual"
+    ]
+   },
+   "meals": [
+    "breakfast",
+    "lunch",
+    "dinner"
+   ],
+   "labels": [
+    "Waterfront",
+    "Open all day"
+   ],
+   "summary_text": "A waterfront restaurant on Kite Beach serving breakfast, lunch and dinner from a wide menu that includes sushi, tapas and burgers. Good for watching the kites.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Alex in Wanderland: where to eat in Cabarete",
+     "https://www.alexinwanderland.com/where-to-eat-in-cabarete/"
+    ],
+    [
+     "Tripadvisor: restaurants near Kite Beach",
+     "https://www.tripadvisor.com/RestaurantsNear-g317144-d149679-Kite_Beach-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "chichigua",
+   "name": "Chichigua",
+   "status": "open",
+   "area": "kite-beach",
+   "area_label": "Kite Beach",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Kite Beach",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Seafood",
+    "Caribbean"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "seafood"
+    ],
+    "moods": [
+     "view",
+     "casual"
+    ]
+   },
+   "meals": [],
+   "labels": [
+    "Kiter hangout",
+    "Dorado (per reviewers)"
+   ],
+   "summary_text": "A Kite Beach hangout for kiters and surfers; reviewers praise the dorado (mahi-mahi).",
+   "sponsored": false,
+   "sources": [
+    [
+     "Tripadvisor: restaurants near Kite Beach",
+     "https://www.tripadvisor.com/RestaurantsNear-g317144-d149679-Kite_Beach-Cabarete_Puerto_Plata_Province_Dominican_Republic.html"
+    ],
+    [
+     "Wanderlog: seafood in Cabarete",
+     "https://wanderlog.com/list/geoCategory/262058/best-seafood-restaurants-in-cabarete"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "beach-club-sea-horse-ranch",
+   "name": "The Beach Club at Sea Horse Ranch",
+   "status": "open",
+   "area": "between",
+   "area_label": "Between Sosúa and Cabarete",
+   "locality": "Cabarete",
+   "country": "DO",
+   "address": "Sea Horse Ranch resort, between Sosúa and Cabarete",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "International"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "fine",
+     "international"
+    ],
+    "moods": [
+     "view",
+     "romantic"
+    ]
+   },
+   "meals": [],
+   "labels": [
+    "Oceanfront",
+    "Live music nights (Fodor’s)"
+   ],
+   "summary_text": "An upscale oceanfront restaurant inside the Sea Horse Ranch resort. Fodor’s mentions an international menu and live music nights; others describe tropical gardens and a pool area.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Fodor’s: North Coast restaurants",
+     "https://www.fodors.com/world/caribbean/dominican-republic/north-coast/restaurants"
+    ],
+    [
+     "Century 21 Perdomo: where to eat in Sosúa",
+     "https://c21perdomo.com/blog/where-to-eat-in-sosua-dominican-republic/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "high"
+  },
+  {
+   "slug": "waterfront-playa-alicia",
+   "name": "Waterfront Restaurant (Playa Alicia)",
+   "status": "open",
+   "area": "sosua",
+   "area_label": "Sosúa",
+   "locality": "Sosúa",
+   "country": "DO",
+   "address": "Playa Alicia, Sosúa",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Seafood",
+    "Caribbean"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "seafood"
+    ],
+    "moods": [
+     "view",
+     "romantic"
+    ]
+   },
+   "meals": [
+    "dinner"
+   ],
+   "labels": [
+    "Sunset views"
+   ],
+   "summary_text": "The name that comes up first for oceanfront and sunset dining in Sosúa, with Caribbean seafood overlooking Playa Alicia.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Vacation Club Promo: best restaurants in Sosúa",
+     "https://vacationclubpromo.com/things-to-do/dominican-republic/best-restaurants-in-sosua/"
+    ],
+    [
+     "Century 21 Perdomo: where to eat in Sosúa",
+     "https://c21perdomo.com/blog/where-to-eat-in-sosua-dominican-republic/"
+    ],
+    [
+     "InStyle Investments: Sosúa and Cabarete restaurants",
+     "https://instyleinvestments.com/blog/best-restaurants-sosua-cabarete"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "casa-veintiuno",
+   "name": "Restaurant Casa Veintiuno",
+   "status": "open",
+   "area": "sosua",
+   "area_label": "Sosúa",
+   "locality": "Sosúa",
+   "country": "DO",
+   "address": "Sosúa",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "European"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "fine",
+     "international"
+    ],
+    "moods": [
+     "romantic"
+    ]
+   },
+   "meals": [
+    "dinner"
+   ],
+   "labels": [
+    "Special occasion"
+   ],
+   "summary_text": "The most common pick for a polished, special-occasion dinner in Sosúa, with European-style cooking.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Century 21 Perdomo: where to eat in Sosúa",
+     "https://c21perdomo.com/blog/where-to-eat-in-sosua-dominican-republic/"
+    ],
+    [
+     "InStyle Investments: Sosúa and Cabarete restaurants",
+     "https://instyleinvestments.com/blog/best-restaurants-sosua-cabarete"
+    ],
+    [
+     "Vacation Club Promo: best restaurants in Sosúa",
+     "https://vacationclubpromo.com/things-to-do/dominican-republic/best-restaurants-in-sosua/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "margot",
+   "name": "Margot Restaurant",
+   "status": "open",
+   "area": "sosua",
+   "area_label": "Sosúa",
+   "locality": "Sosúa",
+   "country": "DO",
+   "address": "Sosúa",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "International"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "international"
+    ]
+   },
+   "meals": [],
+   "labels": [
+    "Varied menu"
+   ],
+   "summary_text": "Praised in local guides for a varied international menu.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Century 21 Perdomo: where to eat in Sosúa",
+     "https://c21perdomo.com/blog/where-to-eat-in-sosua-dominican-republic/"
+    ],
+    [
+     "Tripadvisor: restaurants in Sosúa",
+     "https://www.tripadvisor.com/Restaurants-g317146-Sosua_Puerto_Plata_Province_Dominican_Republic.html"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "moshas",
+   "name": "Mosha's Reggae Lounge",
+   "status": "open",
+   "area": "sosua",
+   "area_label": "Sosúa",
+   "locality": "Sosúa",
+   "country": "DO",
+   "address": "Sosúa",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Jamaican"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "international",
+     "casual-eats"
+    ],
+    "moods": [
+     "lively",
+     "casual"
+    ]
+   },
+   "meals": [],
+   "labels": [
+    "Jerk chicken",
+    "Oxtail"
+   ],
+   "summary_text": "Jamaican cooking in Sosúa, known for jerk chicken and oxtail.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Century 21 Perdomo: where to eat in Sosúa",
+     "https://c21perdomo.com/blog/where-to-eat-in-sosua-dominican-republic/"
+    ],
+    [
+     "Tripadvisor: restaurants in Sosúa",
+     "https://www.tripadvisor.com/Restaurants-g317146-Sosua_Puerto_Plata_Province_Dominican_Republic.html"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "dolci-sapori",
+   "name": "Dolci & Sapori",
+   "status": "open",
+   "area": "sosua",
+   "area_label": "Sosúa",
+   "locality": "Sosúa",
+   "country": "DO",
+   "address": "Sosúa",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Café",
+    "Italian"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "cafe"
+    ],
+    "moods": [
+     "casual"
+    ]
+   },
+   "meals": [
+    "breakfast"
+   ],
+   "labels": [
+    "Breakfast & coffee"
+   ],
+   "summary_text": "A favorite for breakfast and coffee in Sosúa.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Century 21 Perdomo: where to eat in Sosúa",
+     "https://c21perdomo.com/blog/where-to-eat-in-sosua-dominican-republic/"
+    ],
+    [
+     "InStyle Investments: Sosúa and Cabarete restaurants",
+     "https://instyleinvestments.com/blog/best-restaurants-sosua-cabarete"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  },
+  {
+   "slug": "nelsons-lounge-bistro",
+   "name": "NLB Nelson's Lounge & Bistro",
+   "status": "open",
+   "area": "sosua",
+   "area_label": "Sosúa",
+   "locality": "Sosúa",
+   "country": "DO",
+   "address": "Near the center of Sosúa",
+   "lat": null,
+   "lng": null,
+   "geo_source": null,
+   "geo_precision": null,
+   "phone": null,
+   "website": null,
+   "cuisines": [
+    "Caribbean"
+   ],
+   "price": null,
+   "hours": null,
+   "hours_source": null,
+   "tags": {
+    "groups": [
+     "dominican",
+     "international"
+    ],
+    "moods": [
+     "family"
+    ]
+   },
+   "meals": [],
+   "labels": [
+    "Terrace",
+    "Family-friendly (per guides)"
+   ],
+   "summary_text": "A family-friendly Caribbean spot near the center of Sosúa with an indoor lounge and open-air terrace. Fodor’s includes it in its North Coast picks; some reviews are mixed.",
+   "sponsored": false,
+   "sources": [
+    [
+     "Fodor’s: North Coast restaurants",
+     "https://www.fodors.com/world/caribbean/dominican-republic/north-coast/restaurants"
+    ],
+    [
+     "Century 21 Perdomo: where to eat in Sosúa",
+     "https://c21perdomo.com/blog/where-to-eat-in-sosua-dominican-republic/"
+    ]
+   ],
+   "verified": "2026-10",
+   "confidence": "medium"
+  }
+ ]
+}

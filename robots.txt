@@ -30,7 +30,7 @@ User-agent: DuckDuckBot
 Allow: /
 
 # Sitemap
-Sitemap: https://www.cabareterestaurants.com/sitemap.xml
+Sitemap: https://cabareterestaurants.com/sitemap.xml
 
 # Host
 Host: https://www.cabareterestaurants.com

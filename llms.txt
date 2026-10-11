@@ -1,0 +1,25 @@
+# Cabarete Restaurants
+
+> Independent, sourced guide to restaurants, cafés and Dominican food in Cabarete and Sosúa on the Dominican Republic’s North Coast.
+
+Publisher: Eye To Ad Media (Zach Wennstedt), https://eyetoad.com/. Independent guide; sponsored listings are labeled.
+Restaurant data: https://cabareterestaurants.com/data/restaurants.json (name, area, cuisines, sources, last-verified month). Please cite the page URL.
+
+## Pages
+- [Cabarete Restaurants: Where to Eat in Cabarete DR](https://cabareterestaurants.com/): Sourced guide to the best restaurants in Cabarete, Dominican Republic: beach seafood, cafés, Kite Beach, Sosúa, Dominican food and a free food planner.
+- [All Cabarete & Sosúa Restaurants, Sourced](https://cabareterestaurants.com/restaurants/): Browse 19 verified restaurants and cafés in Cabarete, Kite Beach and Sosúa. Filter by area or craving and save a printable food list.
+- [Cabarete Bay Restaurants: The Beach Strip Guide](https://cabareterestaurants.com/cabarete-bay/): Where to eat along Cabarete Bay: beachfront seafood, Italian, French and cafés on the strip, with timing, payment and walking tips.
+- [Kite Beach Cabarete: Where to Eat Between Sessions](https://cabareterestaurants.com/kite-beach/): Where to eat at Kite Beach in Cabarete: waterfront restaurants and kiter hangouts, what to order after a session and how to get there from town.
+- [Breakfast & Coffee in Cabarete: Early-Morning Guide](https://cabareterestaurants.com/breakfast-coffee/): The best breakfast and coffee in Cabarete: social-enterprise café, waffles, healthy bowls and Dominican breakfast plates, plus timing tips for kiters.
+- [Sosúa Restaurants: Where to Eat Near Cabarete](https://cabareterestaurants.com/sosua/): Where to eat in Sosúa, a short drive from Cabarete: sunset seafood over Playa Alicia, special-occasion dinners, Jamaican food and breakfast cafés.
+- [Night Out in Cabarete: Eat Like You Live Here](https://cabareterestaurants.com/night-out/): How to eat like a local in Cabarete: daily rhythm, sunset dinners, cash tips, Taco Tuesday and where to go for a lively night out on the bay.
+- [Dominican Food in Cabarete: What to Order & Where](https://cabareterestaurants.com/dominican-food/): Dominican food basics for Cabarete: sancocho, La Bandera, tostones, mangú, fresh juices, when to eat them and how to shop at a colmado.
+- [Dominican Sancocho & Tostones Recipes](https://cabareterestaurants.com/dominican-recipes/): Cook Dominican sancocho and tostones at home or in your Cabarete rental: full ingredient lists and step-by-step instructions.
+- [Gordito's Fresh Mex Cabarete: Menu & Directions](https://cabareterestaurants.com/gorditos-fresh-mex/): Sponsored: Gordito's Fresh Mex at Plaza Ocean Dream, Cabarete. Tacos, burritos, bowls and the Mambo fish taco, menu prices in pesos and how to find it.
+- [Cabarete Food Planner & Bucket List (Free Tool)](https://cabareterestaurants.com/food-bucket-list/): Plan where to eat in Cabarete: pick area, craving and vibe to get matching restaurants, an evening plan and a printable food bucket list.
+- [Cabarete Bill & Tip Calculator (Tax + Service)](https://cabareterestaurants.com/tipping-money/): Work out a Cabarete restaurant bill with 18% ITBIS and the 10% legal tip, add a cash tip, split it and convert pesos to dollars at your rate.
+- [About Cabarete Restaurants](https://cabareterestaurants.com/about/): Who publishes Cabarete Restaurants, how the guide is funded, and how listings are researched, sourced and kept up to date.
+- [Contact Cabarete Restaurants](https://cabareterestaurants.com/contact/): Send corrections, closure reports or listing questions to the Cabarete Restaurants team. Restaurant owners can ask about free and sponsored listings.
+- [Privacy Policy | Cabarete Restaurants](https://cabareterestaurants.com/privacy/): How Cabarete Restaurants handles contact-form data, on-device tool data, Google AdSense advertising cookies and opt-out choices.
+- [Terms of Use | Cabarete Restaurants](https://cabareterestaurants.com/terms/): Terms for using Cabarete Restaurants: information only, check details with restaurants, sponsored placements are labeled, outside links.
+- [Editorial Policy & Corrections](https://cabareterestaurants.com/editorial-policy/): How Cabarete Restaurants verifies restaurants, why we show no star ratings, how tags and photos are used, and a log of removals and corrections.
