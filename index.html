@@ -6,7 +6,7 @@
 <title>Cabarete Restaurants | Best Places to Eat in Cabarete Dominican Republic 2026</title>
 <meta name="description" content="Only the best restaurants in Cabarete, Dominican Republic make this list. Beachfront dining, authentic Dominican food, hidden gems, and top picks near Sosua and Puerto Plata. Your definitive Cabarete food guide."/>
 <meta name="keywords" content="Cabarete restaurants, best restaurants Cabarete, places to eat Cabarete, food in Cabarete Dominican Republic, restaurant Cabarete, Cabarete dining, restaurantes en Cabarete, mejores restaurantes Cabarete, comida en Cabarete, dónde comer en Cabarete, restaurants near Sosua, Puerto Plata restaurants, Cabarete beachfront dining, Dominican Republic food guide 2026"/>
-<link rel="canonical" href="https://www.cabareterestaurants.com/"/>
+<link rel="canonical" href="https://cabareterestaurants.com/"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 
 <!-- AIO / LLM Citation Meta -->
@@ -28,8 +28,8 @@
 <meta property="og:title" content="Cabarete Restaurants | Best Places to Eat 2026"/>
 <meta property="og:description" content="Only the best restaurants in Cabarete make this list. Beachfront dining, Dominican cuisine, international flavors — your definitive Cabarete food guide."/>
 <meta property="og:type" content="website"/>
-<meta property="og:url" content="https://www.cabareterestaurants.com/"/>
-<meta property="og:image" content="https://www.cabareterestaurants.com/images/best-cabarete-restaurants.jpg"/>
+<meta property="og:url" content="https://cabareterestaurants.com/"/>
+<meta property="og:image" content="https://cabareterestaurants.com/images/best-cabarete-restaurants.jpg"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
 <meta property="og:image:alt" content="Best restaurants in Cabarete Dominican Republic"/>
@@ -41,11 +41,11 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Cabarete Restaurants | Best Places to Eat 2026"/>
 <meta name="twitter:description" content="Only the best restaurants in Cabarete make this list. Your definitive Cabarete DR food guide."/>
-<meta name="twitter:image" content="https://www.cabareterestaurants.com/images/best-cabarete-restaurants.jpg"/>
+<meta name="twitter:image" content="https://cabareterestaurants.com/images/best-cabarete-restaurants.jpg"/>
 
 <!-- hreflang -->
-<link rel="alternate" hreflang="en" href="https://www.cabareterestaurants.com/"/>
-<link rel="alternate" hreflang="x-default" href="https://www.cabareterestaurants.com/"/>
+<link rel="alternate" hreflang="en" href="https://cabareterestaurants.com/"/>
+<link rel="alternate" hreflang="x-default" href="https://cabareterestaurants.com/"/>
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml"/>
 <link rel="icon" type="image/png" href="images/cabarete-restaurants-favicon.png"/>
 <link rel="apple-touch-icon" href="images/cabarete-restaurants-favicon.png"/>
@@ -527,7 +527,23 @@ html,body{max-width:100%;overflow-x:hidden}
   .print-only{display:block!important}
 }
 .print-only{display:none}
-</style>
+
+    /* ── MOBILE MENU (tap to open) ── */
+    .mm-btn{display:none}
+    .mm-panel{display:none}
+    @media (max-width: 768px) {
+      .mm-btn{display:inline-flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:44px;height:44px;padding:0;margin-left:4px;background:none;border:0;cursor:pointer;color:rgba(255,255,255,.88);flex-shrink:0;-webkit-tap-highlight-color:transparent}
+      .mm-btn span{display:block;width:24px;height:2px;background:currentColor;border-radius:2px;transition:transform .2s,opacity .2s}
+      .mm-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+      .mm-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+      .mm-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+      .mm-panel.open{display:block;position:fixed;left:0;right:0;z-index:1001;background:rgba(10,22,40,.98);box-shadow:0 14px 28px rgba(0,0,0,.18);max-height:calc(100vh - 110px);overflow-y:auto}
+      .header-logo{flex-shrink:0}
+      .header-logo img{width:128px;max-width:128px;height:auto}
+      .header-nav .header-cta{font-size:12px;padding:8px 10px;white-space:nowrap}
+      .mm-panel a{display:block;padding:15px 20px;font-weight:600;font-size:16px;line-height:1.3;text-decoration:none;color:rgba(255,255,255,.88);border-top:1px solid rgba(255,255,255,.08)}
+    }
+  </style>
 </head>
 <body>
 
@@ -551,8 +567,17 @@ html,body{max-width:100%;overflow-x:hidden}
     <a href="#recipes" data-en="DR Recipes" data-es="Recetas DR">DR Recipes</a>
     <a href="#faq">FAQ</a>
     <a href="#" class="header-cta eml" data-en="🍽️ List Your Restaurant" data-es="🍽️ Añade tu Restaurante" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="Advertise on CabareteRestaurants.com">🍽️ List Your Restaurant</a>
-  </nav>
+  
+      <button type="button" class="mm-btn" id="mm-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mm-panel"><span></span><span></span><span></span></button>
+    </nav>
 </header>
+  <nav class="mm-panel" id="mm-panel" aria-label="Mobile menu">
+    <a href="#restaurants" data-en="Best Eats" data-es="Mejores Platos">Best Eats</a>
+    <a href="#bucket-list" data-en="My Food List" data-es="Mi Lista">My Food List</a>
+    <a href="#recipes" data-en="DR Recipes" data-es="Recetas DR">DR Recipes</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+
 
 <!-- HERO VIDEO SECTION -->
 <section class="hero" aria-label="Cabarete Restaurants Hero">
@@ -1139,7 +1164,7 @@ html,body{max-width:100%;overflow-x:hidden}
       </div>
       <div class="rocket-ad-ctas">
         <a href="#" class="rocket-cta-primary eml" data-en="🚀 Get a Free Consultation" data-es="🚀 Consulta Gratuita" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="SEO Inquiry via CabareteRestaurants">🚀 Get a Free Consultation</a>
-        <a href="https://seodominicanrepublic.com" target="_blank" rel="sponsored noopener" class="rocket-cta-secondary" data-en="→ Dominican Republic Advertising Agency" data-es="→ Agencia Publicidad República Dominicana">→ DR Advertising Agency</a>
+        <a href="https://seodominicanrepublic.com/" target="_blank" rel="noopener" class="rocket-cta-secondary" data-en="→ Dominican Republic Advertising Agency" data-es="→ Agencia Publicidad República Dominicana">→ DR Advertising Agency</a>
       </div>
       <p style="font-size:11px;color:rgba(255,255,255,.3);margin-top:14px;font-family:'Syne',sans-serif">Eye To Ad Media · eyetoad.com</p>
     </div>
@@ -1407,9 +1432,9 @@ html,body{max-width:100%;overflow-x:hidden}
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://www.cabareterestaurants.com/#website",
+      "@id": "https://cabareterestaurants.com/#website",
       "name": "Cabarete Restaurants",
-      "url": "https://www.cabareterestaurants.com/",
+      "url": "https://cabareterestaurants.com/",
       "description": "The definitive guide to the best restaurants in Cabarete, Dominican Republic. Only the finest make this list.",
       "inLanguage": [
         "en",
@@ -1419,7 +1444,7 @@ html,body{max-width:100%;overflow-x:hidden}
       "dateModified": "2026-05-23",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://www.cabareterestaurants.com/?s={search_term_string}",
+        "target": "https://cabareterestaurants.com/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       },
       "publisher": {
@@ -1434,12 +1459,12 @@ html,body{max-width:100%;overflow-x:hidden}
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.cabareterestaurants.com/#webpage",
-      "url": "https://www.cabareterestaurants.com/",
+      "@id": "https://cabareterestaurants.com/#webpage",
+      "url": "https://cabareterestaurants.com/",
       "name": "Cabarete Restaurants | Best Places to Eat in Cabarete Dominican Republic 2026",
       "description": "Only the best restaurants in Cabarete, Dominican Republic make this list. Beachfront dining, authentic Dominican food, hidden gems, and top picks near Sosua and Puerto Plata.",
       "isPartOf": {
-        "@id": "https://www.cabareterestaurants.com/#website"
+        "@id": "https://cabareterestaurants.com/#website"
       },
       "about": {
         "@type": "Place",
@@ -1465,7 +1490,7 @@ html,body{max-width:100%;overflow-x:hidden}
     },
     {
       "@type": "FoodEstablishment",
-      "@id": "https://www.cabareterestaurants.com/#gorditos",
+      "@id": "https://cabareterestaurants.com/#gorditos",
       "name": "Gordito's Fresh Mex",
       "description": "Fresh Mexican-inspired food made from scratch daily. Legendary tacos, burritos and bowls in Cabarete, Dominican Republic. Cash only. Taco Tuesday is a must.",
       "servesCuisine": [
@@ -1519,7 +1544,7 @@ html,body{max-width:100%;overflow-x:hidden}
       "@type": "ItemList",
       "name": "Best Restaurants in Cabarete Dominican Republic",
       "description": "Curated list of the finest restaurants in Cabarete, DR — ranked by quality, experience, and local knowledge",
-      "url": "https://www.cabareterestaurants.com/",
+      "url": "https://cabareterestaurants.com/",
       "numberOfItems": 7,
       "itemListElement": [
         {
@@ -1694,7 +1719,7 @@ html,body{max-width:100%;overflow-x:hidden}
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://www.cabareterestaurants.com/"
+          "item": "https://cabareterestaurants.com/"
         }
       ]
     }
@@ -1986,6 +2011,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 })();
+</script>
+
+<script>
+/* mobile menu: tap to open, closes on link tap, Escape or resize to desktop */
+(function(){var b=document.getElementById('mm-btn'),p=document.getElementById('mm-panel'),h=document.querySelector('header');if(!b||!p||!h)return;function set(o){b.setAttribute('aria-expanded',o?'true':'false');b.setAttribute('aria-label',o?'Close menu':'Open menu');p.classList.toggle('open',o);if(o)p.style.top=Math.max(0,h.getBoundingClientRect().bottom)+'px';}b.addEventListener('click',function(){set(b.getAttribute('aria-expanded')!=='true');});p.addEventListener('click',function(e){if(e.target.closest('a'))set(false);});document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});window.addEventListener('resize',function(){if(window.innerWidth>768)set(false);});window.addEventListener('scroll',function(){if(p.classList.contains('open'))p.style.top=Math.max(0,h.getBoundingClientRect().bottom)+'px';},{passive:true});})();
 </script>
 </body>
 </html>

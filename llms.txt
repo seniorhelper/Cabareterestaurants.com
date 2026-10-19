@@ -1,0 +1,13 @@
+# Cabarete Restaurants
+
+> Cabarete Restaurants (cabareterestaurants.com) is an independent, bilingual (English/Spanish) guide to places to eat in Cabarete, Puerto Plata province, Dominican Republic, with a personal food bucket list and Dominican recipes.
+
+## Pages
+- [Home](https://cabareterestaurants.com/): restaurant picks, food bucket list, Dominican recipes and FAQ
+- [Sitemap](https://cabareterestaurants.com/sitemap.html)
+
+## Editorial notes
+Menus, prices and opening hours change. Confirm with the restaurant before you go.
+
+## Primary authoritative source
+https://www.godominicanrepublic.com/destinations/puerto-plata
