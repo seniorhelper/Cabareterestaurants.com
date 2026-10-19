@@ -544,6 +544,19 @@ html,body{max-width:100%;overflow-x:hidden}
       .mm-panel a{display:block;padding:15px 20px;font-weight:600;font-size:16px;line-height:1.3;text-decoration:none;color:rgba(255,255,255,.88);border-top:1px solid rgba(255,255,255,.08)}
     }
   </style>
+<style id="brand-2026">
+header img.brand-logo{display:block;width:280px!important;height:auto!important;max-width:none!important;max-height:none!important;filter:none!important;object-fit:contain}
+img.brand-foot{display:block;width:280px!important;height:auto!important;max-width:100%!important;max-height:none!important}
+@media(max-width:768px){header img.brand-logo,img.brand-foot{width:200px!important}}
+header{background:#fff!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;border-bottom:3px solid #00b4d8!important;box-shadow:0 2px 16px rgba(0,0,0,.07)}
+header:has(.brand-logo){height:auto!important;min-height:var(--header-h);padding-top:6px!important;padding-bottom:6px!important}
+.header-nav a:not(.header-cta){color:#0a1628!important}
+.header-nav a:not(.header-cta):hover{color:#0077b6!important}
+.mm-btn{color:#0a1628!important}
+.mm-panel.open{background:#fff!important}
+.mm-panel a{color:#0a1628!important;border-top-color:rgba(10,22,40,.08)!important}
+@media(max-width:480px){header .header-cta{display:none!important}}
+</style>
 </head>
 <body>
 
@@ -559,7 +572,7 @@ html,body{max-width:100%;overflow-x:hidden}
 <!-- HEADER -->
 <header>
   <a href="/" class="header-logo" aria-label="Cabarete Restaurants Home">
-    <img src="images/cabarete-restaurants-logo.png" alt="Cabarete Restaurants" width="250" height="70"/>
+    <img class="brand-logo" src="/images/brand/cabarete-restaurants-logo.webp" alt="Cabarete Restaurants" width="560" height="169">
   </a>
   <nav class="header-nav">
     <a href="#restaurants" data-en="Best Eats" data-es="Mejores Platos">Best Eats</a>
@@ -576,6 +589,7 @@ html,body{max-width:100%;overflow-x:hidden}
     <a href="#bucket-list" data-en="My Food List" data-es="Mi Lista">My Food List</a>
     <a href="#recipes" data-en="DR Recipes" data-es="Recetas DR">DR Recipes</a>
     <a href="#faq">FAQ</a>
+    <a href="#" class="eml" data-cta data-en="🍽️ List Your Restaurant" data-es="🍽️ Añade tu Restaurante" data-a="aW5mbw==" data-b="ZXlldG9hZC5jb20=" data-s="Advertise on CabareteRestaurants.com">🍽️ List Your Restaurant</a>
   </nav>
 
 
